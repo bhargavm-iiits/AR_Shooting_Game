@@ -22,7 +22,7 @@ Runs on any **ARCore-compatible Android phone** as a world-anchored AR experienc
 
 | Practice Mode | AR Mode |
 |:---:|:---:|
-| ![Main menu — Practice Mode selected](docs/screenshots/practice_002s.jpg) | ![Main menu — AR mode](docs/screenshots/ar_003s.jpg) |
+| ![Main menu — Practice Mode selected](Docs/screenshots/practice_002s.jpg) | ![Main menu — AR mode](Docs/screenshots/ar_003s.jpg) |
 | Virtual practice floor, no camera needed | Real-world AR via phone camera + ARCore |
 
 Tap **ENTER AR** to launch the full augmented-reality experience, or **PRACTICE MODE** to play on a virtual grid floor without any AR services.
@@ -37,12 +37,12 @@ No camera or AR services required. The game renders a virtual practice floor and
 | Step | Screenshot |
 |:---:|:---:|
 | **Drag-to-aim view — Level 2 "Orbit Storm"** | **Level 3 "Chaos Drift" — Free-flying bubbles** |
-| ![Practice Mode — Level 2 Orbit Storm](docs/screenshots/practice_016s.jpg) | ![Practice Mode — Level 3 Chaos Drift](docs/screenshots/practice_035s.jpg) |
+| ![Practice Mode — Level 2 Orbit Storm](Docs/screenshots/practice_016s.jpg) | ![Practice Mode — Level 3 Chaos Drift](Docs/screenshots/practice_035s.jpg) |
 | 3 energy bubbles orbiting the base on a tilting carousel | 4 bubbles in random free-flight with inertia and turbulence |
 
 | Wave Cleared! |
 |:---:|
-| ![All Levels Cleared celebration](docs/screenshots/practice_044s.jpg) |
+| ![All Levels Cleared celebration](Docs/screenshots/practice_044s.jpg) |
 | Level 3 Completed — full-screen aura burst, god rays, shock rings, confetti, and **PLAY AGAIN** |
 
 ---
@@ -53,11 +53,11 @@ The full pipeline runs on a physical Android device. The game anchors the arena 
 
 | Phase | Screenshot | What's happening |
 |:---:|:---:|:---|
-| **01 · Scan** | ![AR scanning phase](docs/screenshots/ar_010s.jpg) | "Move your phone slowly to find the ground" — ARCore detects horizontal planes |
-| **02 · Level 1 · Still Waters** | ![AR Level 1 — 2 static bubbles anchored to real floor](docs/screenshots/ar_018s.jpg) | Base anchored to real floor · 2 static energy bubbles · **BASE ANCHORED** status |
-| **03 · Level 2 · Orbit Storm** | ![AR Level 2 — 3 orbiting bubbles](docs/screenshots/ar_028s.jpg) | 3 bubbles orbiting on a tilting carousel over the real floor |
-| **04 · Level 2 Completed** | ![AR Level 2 cleared celebration](docs/screenshots/ar_040s.jpg) | Full-screen aura celebration with god rays, confetti, and score count-up |
-| **05 · Level 3 · Chaos Drift** | ![AR Level 3 — 1 free-flying bubble remaining](docs/screenshots/ar_055s.jpg) | 4→1 remaining bubble drifting freely, always inside phone-screen bounds |
+| **01 · Scan** | ![AR scanning phase](Docs/screenshots/ar_010s.jpg) | "Move your phone slowly to find the ground" — ARCore detects horizontal planes |
+| **02 · Level 1 · Still Waters** | ![AR Level 1 — 2 static bubbles anchored to real floor](Docs/screenshots/ar_018s.jpg) | Base anchored to real floor · 2 static energy bubbles · **BASE ANCHORED** status |
+| **03 · Level 2 · Orbit Storm** | ![AR Level 2 — 3 orbiting bubbles](Docs/screenshots/ar_028s.jpg) | 3 bubbles orbiting on a tilting carousel over the real floor |
+| **04 · Level 2 Completed** | ![AR Level 2 cleared celebration](Docs/screenshots/ar_040s.jpg) | Full-screen aura celebration with god rays, confetti, and score count-up |
+| **05 · Level 3 · Chaos Drift** | ![AR Level 3 — 1 free-flying bubble remaining](Docs/screenshots/ar_055s.jpg) | 4→1 remaining bubble drifting freely, always inside phone-screen bounds |
 
 ---
 
