@@ -1,0 +1,21 @@
+{
+    "unityVersion": "6000.5.5f1",
+    "startedUtc": "2026-11-12T15:46:26.2547405Z",
+    "finishedUtc": "2026-11-12T15:51:57.8232678Z",
+    "result": "Succeeded",
+    "outputPath": "D:/Unity Projects/Assignment/Builds/Android/RealityDefender.apk",
+    "packageId": "com.assignment.realitydefender",
+    "architecture": "arm64-v8a",
+    "graphicsApi": "OpenGLES3",
+    "scriptingBackend": "IL2CPP",
+    "signer": "Unity local debug signer (signature inspection required)",
+    "totalBytes": "1026643653",
+    "failure": "",
+    "minSdk": 26,
+    "targetSdk": 36,
+    "totalErrors": 0,
+    "totalWarnings": 350,
+    "developmentBuild": false,
+    "arOptional": true,
+    "durationSeconds": 329.1284642
+}

@@ -1,0 +1,279 @@
+{
+    "category": "Unity Editor Play Mode; actual scene and Rigidbody physics; no physical AR device",
+    "unityVersion": "6000.5.5f1",
+    "utc": "2026-11-12T15:41:57.5922712Z",
+    "passed": true,
+    "placementInput": "Synthetic Input System MouseState press/release through PlacementController.ReadPointer",
+    "buttonInput": "Actual runtime HUD Button.onClick actions",
+    "duplicateFixture": "Temporarily set the public fireCooldown to zero for two same-frame physical shots; restore immediately",
+    "checks": [
+        {
+            "check": "Scene wiring",
+            "passed": true,
+            "detail": "HUD has placement and wave controllers."
+        },
+        {
+            "check": "Startup menu",
+            "passed": true,
+            "detail": "No placed base before a deliberate mode and surface action."
+        },
+        {
+            "check": "Camera-free Practice Mode",
+            "passed": true,
+            "detail": "Practice entered through its runtime HUD button."
+        },
+        {
+            "check": "Placement tap is visible",
+            "passed": true,
+            "detail": "Ground origin projects to (640.00, 276.67) in 1280x720."
+        },
+        {
+            "check": "Initial wave",
+            "passed": true,
+            "detail": "Level 1 starts with exactly two static bubbles and score zero."
+        },
+        {
+            "check": "Level 1 static bubbles",
+            "passed": true,
+            "detail": "Both level 1 bubbles hold their exact positions across frames."
+        },
+        {
+            "check": "One grounded base",
+            "passed": true,
+            "detail": "One base with three unique target slots."
+        },
+        {
+            "check": "Placement transform",
+            "passed": true,
+            "detail": "Base has local identity beneath its placement root."
+        },
+        {
+            "check": "Single active camera",
+            "passed": true,
+            "detail": "Practice camera active; AR branch inactive."
+        },
+        {
+            "check": "Repeated surface tap",
+            "passed": true,
+            "detail": "Repeated input preserves the single base and wave."
+        },
+        {
+            "check": "Practice drag aim",
+            "passed": true,
+            "detail": "Dragging the free play area rotates the fixed-position camera and preserves the arena."
+        },
+        {
+            "check": "UI pointer isolation",
+            "passed": true,
+            "detail": "A real pointer click fires through EventSystem without placing another base or rotating the camera."
+        },
+        {
+            "check": "Game View capture Practice-Landscape.png",
+            "passed": true,
+            "detail": "Actual rendered Game View and runtime UI at 1280x720."
+        },
+        {
+            "check": "FIRE creates a physical shot",
+            "passed": true,
+            "detail": "One projectile was launched through the runtime FIRE button."
+        },
+        {
+            "check": "Plasma lance presentation",
+            "passed": true,
+            "detail": "The shot is drawn as a muzzle-born double-helix plasma lance with ion rings."
+        },
+        {
+            "check": "Projectile physics",
+            "passed": true,
+            "detail": "Dynamic Rigidbody, no gravity, and a non-trigger sphere collider."
+        },
+        {
+            "check": "Live camera shot pose",
+            "passed": true,
+            "detail": "Shot launch point equals the active camera position; velocity follows camera forward."
+        },
+        {
+            "check": "Miss expiry",
+            "passed": true,
+            "detail": "Miss retired without scoring after 0.487 seconds at 11 m/s."
+        },
+        {
+            "check": "Tracking pause",
+            "passed": true,
+            "detail": "Suspending tracking immediately retires shots, blocks firing, and preserves targets and score."
+        },
+        {
+            "check": "Duplicate-contact fixture",
+            "passed": true,
+            "detail": "Two real shots launched in the same player frame toward one collider."
+        },
+        {
+            "check": "Duplicate hit scores once",
+            "passed": true,
+            "detail": "Concurrent shots consumed one target and awarded exactly ten points."
+        },
+        {
+            "check": "Game View capture Practice-Portrait.png",
+            "passed": true,
+            "detail": "Actual rendered Game View and runtime UI at 720x1280."
+        },
+        {
+            "check": "Level 1 hit, score 20",
+            "passed": true,
+            "detail": "A real OnCollisionEnter on a Static bubble removed it and added ten points."
+        },
+        {
+            "check": "Level 1 cleared",
+            "passed": true,
+            "detail": "Two hits clear level 1 (score 20); firing pauses for the celebration."
+        },
+        {
+            "check": "Level 1 popup",
+            "passed": true,
+            "detail": "A full-screen LEVEL 1 COMPLETED aura celebration is on screen."
+        },
+        {
+            "check": "Game View capture Level1-Completed.png",
+            "passed": true,
+            "detail": "Actual rendered Game View and runtime UI at 1280x720."
+        },
+        {
+            "check": "Level 2 spawn",
+            "passed": true,
+            "detail": "Level 2 spawns exactly three orbiting bubbles."
+        },
+        {
+            "check": "Level 2 rotation",
+            "passed": true,
+            "detail": "Every level 2 bubble travels around the base between samples."
+        },
+        {
+            "check": "Level 2 hit, score 30",
+            "passed": true,
+            "detail": "A real OnCollisionEnter on a Orbit bubble removed it and added ten points."
+        },
+        {
+            "check": "Level 2 hit, score 40",
+            "passed": true,
+            "detail": "A real OnCollisionEnter on a Orbit bubble removed it and added ten points."
+        },
+        {
+            "check": "Level 2 hit, score 50",
+            "passed": true,
+            "detail": "A real OnCollisionEnter on a Orbit bubble removed it and added ten points."
+        },
+        {
+            "check": "Level 2 cleared",
+            "passed": true,
+            "detail": "Three moving hits clear level 2 (score 50)."
+        },
+        {
+            "check": "Level 2 popup",
+            "passed": true,
+            "detail": "LEVEL 2 COMPLETED aura celebration is on screen."
+        },
+        {
+            "check": "Level 3 spawn",
+            "passed": true,
+            "detail": "Level 3 spawns exactly four free-flying bubbles."
+        },
+        {
+            "check": "Level 3 random flight on screen",
+            "passed": true,
+            "detail": "180 position samples: every bubble moved and stayed inside the visible screen."
+        },
+        {
+            "check": "Game View capture Level3-Flight.png",
+            "passed": true,
+            "detail": "Actual rendered Game View and runtime UI at 720x1280."
+        },
+        {
+            "check": "Level 3 hit, score 60",
+            "passed": true,
+            "detail": "A real OnCollisionEnter on a Wander bubble removed it and added ten points."
+        },
+        {
+            "check": "Level 3 hit, score 70",
+            "passed": true,
+            "detail": "A real OnCollisionEnter on a Wander bubble removed it and added ten points."
+        },
+        {
+            "check": "Level 3 hit, score 80",
+            "passed": true,
+            "detail": "A real OnCollisionEnter on a Wander bubble removed it and added ten points."
+        },
+        {
+            "check": "Level 3 hit, score 90",
+            "passed": true,
+            "detail": "A real OnCollisionEnter on a Wander bubble removed it and added ten points."
+        },
+        {
+            "check": "Wave cleared",
+            "passed": true,
+            "detail": "All three levels cleared: score 90, no living targets or projectiles, and completion set."
+        },
+        {
+            "check": "Final popup",
+            "passed": true,
+            "detail": "LEVEL 3 COMPLETED final aura celebration is on screen."
+        },
+        {
+            "check": "Completion disables FIRE",
+            "passed": true,
+            "detail": "The runtime button is dimmed and the game rejects further shots."
+        },
+        {
+            "check": "Completion banner",
+            "passed": true,
+            "detail": "Exact WAVE CLEARED text is visible in the real HUD."
+        },
+        {
+            "check": "Game View capture Practice-Cleared.png",
+            "passed": true,
+            "detail": "Actual rendered Game View and runtime UI at 720x1280."
+        },
+        {
+            "check": "Replay cleanup",
+            "passed": true,
+            "detail": "PLAY AGAIN starts fresh placement and retires the completed round."
+        },
+        {
+            "check": "Replay new wave",
+            "passed": true,
+            "detail": "A second actual tap restarts at level 1 with two bubbles, score zero and one base."
+        },
+        {
+            "check": "Inside range boundary",
+            "passed": true,
+            "detail": "A registered target at 4.6 metres accepted a real collision."
+        },
+        {
+            "check": "Outside range boundary",
+            "passed": true,
+            "detail": "A registered target at 5.3 metres remained alive and earned zero points."
+        },
+        {
+            "check": "Return to menu cleanup",
+            "passed": true,
+            "detail": "Leaving practice clears all round-owned targets, shots, and score."
+        },
+        {
+            "check": "Final scene cleanup",
+            "passed": true,
+            "detail": "No placed bases remain and exactly one camera is active."
+        },
+        {
+            "check": "Runtime error log",
+            "passed": true,
+            "detail": "0 Error/Exception/Assert log entries during the run."
+        }
+    ],
+    "runtimeErrors": [],
+    "screenshots": [
+        "Submission/Practice-Landscape.png",
+        "Submission/Practice-Portrait.png",
+        "Submission/Level1-Completed.png",
+        "Submission/Level3-Flight.png",
+        "Submission/Practice-Cleared.png"
+    ]
+}
