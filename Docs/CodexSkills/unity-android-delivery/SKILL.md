@@ -1,0 +1,43 @@
+---
+name: unity-android-delivery
+description: Build and verify a sideloadable Unity Android APK, including ARCore project validation, physical-device smoke tests, low-end performance measurements, and assignment evidence capture. Use when packaging, diagnosing, profiling, or handing off a Unity Android player.
+---
+
+# Deliver a Unity Android APK
+
+## Select and verify the build settings
+
+1. Read `ProjectSettings/ProjectVersion.txt`, `Packages/manifest.json`, the resolved package lock, and the enabled build scenes. Use the project's exact Editor and verify Android Build Support, SDK, NDK, and OpenJDK under Hub or **Preferences > External Tools**. Keep the Editor-bundled toolchain unless the project has a verified override.
+2. Create or select the Android profile in **File > Build Profiles** and switch to it before compiling. Use the intended startup scene and any scenes it loads. For a standalone APK, disable **Export Project**, **Build App Bundle**, per-ABI APK splitting, and separate application binaries. Use a stable application ID and version. [Unity Android build settings](https://docs.unity.com/en-us/engine/6000.5/manual/platform-specific/android/building-and-delivering/build-settings)
+3. Use IL2CPP and ARM64. Add ARMv7 with NEON in the same APK when the Editor and native plugins support it. Check both ABI payloads and test on a 32-bit device before claiming support. For Unity 6000.5, API 26 is the engine floor. Apply any higher verified dependency floor and set a supported installed target SDK, which is a separate setting from minimum SDK. For this project API 36 is available in the bundled toolchain. [Unity 6.5 system requirements](https://docs.unity.com/en-us/engine/6000.5/manual/get-started/install-and-upgrade/getting-started-installing-unity/system-requirements)
+4. For handheld AR, resolve a compatible matching AR Foundation and Google ARCore XR Plugin pair. Enable the Android ARCore loader in **Project Settings > XR Plug-in Management**. Use **AR Optional** and keep **Depth** optional when the game has a camera-independent practice mode. Resolve blocking **Project Validation** issues on the Android tab. For a broad low-end Unity 6.5 build, use OpenGLES3 without an extra ES 3.1/3.2 requirement. Verify the active URP Renderer has the AR background feature and the AR camera has its background component. [ARCore Unity configuration](https://docs.unity3d.com/Packages/com.unity.xr.arcore@6.5/manual/project-configuration-arcore.html)
+5. In the final APK's merged manifest, verify `com.google.ar.core` is `optional` and `android.hardware.camera.ar` is absent or `required=false`. Verify regular camera and autofocus features also do not filter out devices for a camera-free fallback. Keep the camera permission for the AR flow. Match AR support against Google's device list and runtime checks. Lens resolution alone cannot determine AR support. [AR Optional manifest and runtime requirements](https://developers.google.com/ar/develop/java/enable-arcore) · [ARCore certified devices](https://developers.google.com/ar/devices)
+
+## Build and inspect
+
+1. Use **Build** on the selected Android profile. For automation, run the pinned Editor with `-batchmode -quit -buildTarget Android -projectPath <project> -executeMethod <existing-static-editor-method> -logFile <log-path>`. For a saved build profile, use `-activeBuildProfile <project-relative-profile-path>` in place of `-buildTarget Android` and build with `BuildPlayerWithProfileOptions`. Use one Editor process per project. [Unity command-line arguments](https://docs.unity.com/en-us/engine/6000.5/manual/unity-editor/command-line-arguments/editor) · [Custom build script](https://docs.unity.com/en-us/engine/6000.5/manual/building-and-publishing/build-customize-build-pipeline/build-script-build)
+2. The build method should call `BuildPipeline.BuildPlayer`, check `BuildReport.summary.result` for `Succeeded`, and fail with a nonzero exit on errors. Check the log and confirm the expected APK is a fresh nonempty file from that invocation. Capture the first meaningful compiler, package, Gradle, or signing error if the build fails. [Unity BuildPipeline.BuildPlayer](https://docs.unity.com/en-us/engine/6000.5/script-reference/unityeditor/buildpipeline/buildplayer)
+3. Use a separate Development Build for profiling. For an assignment sideload, produce a non-Development build with Unity's default debug signing unless an authorized release keystore is supplied. Keep signing credentials and keystores outside shared files. Verify the signature with SDK Build Tools and verify actual manifest and native library contents. With the tools on `PATH` and `$apk` set to the APK path, run the following. [AAPT2](https://developer.android.com/tools/aapt2) · [apksigner](https://developer.android.com/tools/apksigner)
+
+   ```powershell
+   aapt2 dump badging $apk
+   aapt2 dump xmltree --file AndroidManifest.xml $apk
+   apksigner verify --verbose --print-certs $apk
+   Get-FileHash -LiteralPath $apk -Algorithm SHA256
+   ```
+
+   Use the SDK's `aapt2.exe` and `apksigner.bat` by absolute path if needed, with the matching OpenJDK available. Check the package ID, version, SDK range, launchable activity, declared feature requirements, and `lib/<abi>/` entries in the APK. Report the signing mode and final SHA-256.
+
+## Prove device behavior
+
+1. Use `adb devices -l` to select an authorized physical phone. Read `ro.product.model`, `ro.build.version.sdk`, and `ro.product.cpu.abilist` via `adb shell getprop`. Use `adb -s <serial> install -r <apk>`, launch through the device UI, and capture relevant `adb logcat` output. Treat install, first launch, and play as separate checks. [Android Debug Bridge](https://developer.android.com/tools/adb)
+2. On a certified phone, check service installation or update, permission grant and denial, scanning a well-lit textured table or floor, tap-to-place, and a short camera move to confirm the base stays registered. Background and resume with the arena placed. Shoot a deliberate miss and clear the three targets. Verify scores `10`, `20`, `30`, then `WAVE CLEARED`. Check for one base, disappearing targets with feedback, and cleanup past the projectile range.
+3. On an eligible phone without AR support, test launch and a full wave in practice mode with no required camera access. Also exercise practice mode on a supported phone with camera access denied. Report fallback coverage separately from AR placement. Include a low-end physical phone for performance claims. Simulation covers interactions only.
+4. On the low-end phone, use the target Profiler with a Development Build and Deep Profiling disabled to diagnose CPU, render, memory, GC, and physics costs. For the release gate, use a repeatable warm run of scanning, placement, and repeated waves without the recorder or Profiler attached. Target sustained 30 fps, approximately 33.3 ms per frame. Record average fps, 95th-percentile frame time, test duration, device model, Android version, graphics API, quality tier, and tracking or thermal stalls. Keep measured numbers distinct from the target and log what still needs a physical phone. [Unity target device profiling](https://docs.unity.com/en-us/engine/6000.5/manual/analysis/profiler/profiling-applications/profiling-target-device) · [ARCore performance guidance](https://developers.google.com/ar/develop/performance)
+
+## Collect assignment evidence
+
+- Use the project's build brief for artifact names. The Reality Defender brief at `Docs/MASTER_PROMPT.md` uses `Builds/Android/RealityDefender.apk`, `Submission/RealityDefender-AR-demo.mp4`, and `Submission/RealityDefender-ShaderGraph.png` relative to the project root.
+- Record a continuous actual AR run on an ARCore-certified Android phone, starting before placement. Show plane detection, one tap placing the base, the base staying put while the camera moves, three successful hits, the score, and the completion banner. Use the phone recorder or `adb shell screenrecord` and `adb pull`. Replay the video to verify the steps are visible.
+- Capture the actual target Shader Graph in Unity with its node connections and output visible. Check the screenshot at full size before handoff. If a device or capture is unavailable, state the exact missing evidence and provide the remaining local files.
+- Stage the local APK and evidence for review. If the assignment requires a Google Drive link, give the user the steps to upload the reviewed files, set **Anyone with the link > Viewer**, and verify read access. Treat upload, public link access, and sending as separate actions requiring explicit user authorization.

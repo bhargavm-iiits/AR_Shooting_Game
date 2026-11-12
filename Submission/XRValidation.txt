@@ -1,0 +1,1 @@
+WARNING [XR Plug-in Management] Run In Background must be enabled or Input System Background Behavior changed to avoid head-locked rendering of the main camera when focus is lost, such as when the universal menu/system shell is opened.

@@ -1,0 +1,9 @@
+{
+    "scene": "Assets/RealityDefender/Scenes/RealityDefender.unity",
+    "origin": "bottom center y=0; unit scale",
+    "renderer": "Mobile URP Forward, GLES3, HDR off, AR background feature",
+    "baseDiameter": 0.6499999761581421,
+    "baseHeight": 0.12999999523162843,
+    "orbDiameter": 0.14000000059604646,
+    "targets": 3
+}

@@ -1,0 +1,215 @@
+{
+  "utc": "2026-11-11T10:24:07.484889+00:00",
+  "serial": "29f7bb1b",
+  "connection": "available",
+  "captureComplete": false,
+  "cameraService": {
+    "pidBefore": "2924",
+    "pidAfter": null,
+    "sameProcessAcrossCapture": null,
+    "dumpAvailable": false,
+    "hasActiveClients": null,
+    "gameIsActiveClient": null,
+    "statusLines": []
+  },
+  "sensorDumpAvailable": false,
+  "sensorHardware": [
+    "Total 38 h/w sensors, 38 running 0 disabled clients:",
+    "0x0100000b) bmi26x Accelerometer Non-wakeup | BOSCH           | ver: 16777479 | type: android.sensor.accelerometer(1) | perm: n/a | flags: 0x00000900",
+    "0x01000029) bmi26x Gyroscope Non-wakeup | BOSCH           | ver: 16777479 | type: android.sensor.gyroscope(4) | perm: n/a | flags: 0x00000940",
+    "0x010000a1) bmi26x Gyroscope-Uncalibrated Non-wakeup | BOSCH           | ver: 16777479 | type: android.sensor.gyroscope_uncalibrated(16) | perm: n/a | flags: 0x00000940",
+    "0x0100015f) bmi26x Accelerometer-Uncalibrated Non-wakeup | BOSCH           | ver: 16777479 | type: android.sensor.accelerometer_uncalibrated(35) | perm: n/a | flags: 0x00000900"
+  ],
+  "motionEvents": {
+    "bmi26x Accelerometer Non-wakeup": {
+      "latestTimestampBefore": 1508.032210011,
+      "latestTimestampAfter": null,
+      "advanced": null,
+      "currentlySubscribed": null,
+      "latestEvent": null
+    },
+    "bmi26x Accelerometer-Uncalibrated Non-wakeup": {
+      "latestTimestampBefore": 1508.300424177,
+      "latestTimestampAfter": null,
+      "advanced": null,
+      "currentlySubscribed": null,
+      "latestEvent": null
+    },
+    "bmi26x Gyroscope-Uncalibrated Non-wakeup": {
+      "latestTimestampBefore": 1508.297913709,
+      "latestTimestampAfter": null,
+      "advanced": null,
+      "currentlySubscribed": null,
+      "latestEvent": null
+    }
+  },
+  "gameProcessId": null,
+  "availableGameLog": {
+    "captured": false,
+    "imuSynchronizationWarningCount": null,
+    "warningExamples": [],
+    "crashOrManagedExceptionLines": []
+  },
+  "failedAttempts": [
+    {
+      "args": [
+        "shell",
+        "dumpsys",
+        "sensorservice"
+      ],
+      "attempt": 1,
+      "connectionState": "",
+      "returnCode": 1,
+      "error": "* daemon not running; starting now at tcp:5037\r\ncould not read ok from ADB Server\r\n* failed to start daemon\r\nerror: cannot connect to daemon",
+      "ok": false
+    },
+    {
+      "args": [
+        "shell",
+        "dumpsys",
+        "sensorservice"
+      ],
+      "attempt": 2,
+      "connectionState": "",
+      "returnCode": 1,
+      "error": "* daemon not running; starting now at tcp:5037\r\ncould not read ok from ADB Server\r\n* failed to start daemon\r\nerror: cannot connect to daemon",
+      "ok": false
+    },
+    {
+      "args": [
+        "shell",
+        "dumpsys",
+        "sensorservice"
+      ],
+      "attempt": 3,
+      "connectionState": "",
+      "returnCode": 1,
+      "error": "* daemon not running; starting now at tcp:5037\r\ncould not read ok from ADB Server\r\n* failed to start daemon\r\nerror: cannot connect to daemon",
+      "ok": false
+    },
+    {
+      "args": [
+        "shell",
+        "dumpsys",
+        "media.camera"
+      ],
+      "attempt": 1,
+      "connectionState": "",
+      "returnCode": 1,
+      "error": "* daemon not running; starting now at tcp:5037\r\ncould not read ok from ADB Server\r\n* failed to start daemon\r\nerror: cannot connect to daemon",
+      "ok": false
+    },
+    {
+      "args": [
+        "shell",
+        "dumpsys",
+        "media.camera"
+      ],
+      "attempt": 2,
+      "connectionState": "",
+      "returnCode": 1,
+      "error": "* daemon not running; starting now at tcp:5037\r\ncould not read ok from ADB Server\r\n* failed to start daemon\r\nerror: cannot connect to daemon",
+      "ok": false
+    },
+    {
+      "args": [
+        "shell",
+        "dumpsys",
+        "media.camera"
+      ],
+      "attempt": 3,
+      "connectionState": "",
+      "returnCode": 1,
+      "error": "* daemon not running; starting now at tcp:5037\r\ncould not read ok from ADB Server\r\n* failed to start daemon\r\nerror: cannot connect to daemon",
+      "ok": false
+    },
+    {
+      "args": [
+        "shell",
+        "pidof",
+        "cameraserver"
+      ],
+      "attempt": 1,
+      "connectionState": "",
+      "returnCode": 1,
+      "error": "* daemon not running; starting now at tcp:5037\r\ncould not read ok from ADB Server\r\n* failed to start daemon\r\nerror: cannot connect to daemon",
+      "ok": false
+    },
+    {
+      "args": [
+        "shell",
+        "pidof",
+        "cameraserver"
+      ],
+      "attempt": 2,
+      "connectionState": "",
+      "returnCode": 1,
+      "error": "* daemon not running; starting now at tcp:5037\r\ncould not read ok from ADB Server\r\n* failed to start daemon\r\nerror: cannot connect to daemon",
+      "ok": false
+    },
+    {
+      "args": [
+        "shell",
+        "pidof",
+        "cameraserver"
+      ],
+      "attempt": 3,
+      "connectionState": "",
+      "returnCode": 1,
+      "error": "* daemon not running; starting now at tcp:5037\r\ncould not read ok from ADB Server\r\n* failed to start daemon\r\nerror: cannot connect to daemon",
+      "ok": false
+    },
+    {
+      "args": [
+        "shell",
+        "pidof",
+        "com.assignment.realitydefender"
+      ],
+      "attempt": 1,
+      "connectionState": "",
+      "returnCode": 1,
+      "error": "* daemon not running; starting now at tcp:5037\r\ncould not read ok from ADB Server\r\n* failed to start daemon\r\nerror: cannot connect to daemon",
+      "ok": false
+    },
+    {
+      "args": [
+        "shell",
+        "pidof",
+        "com.assignment.realitydefender"
+      ],
+      "attempt": 2,
+      "connectionState": "",
+      "returnCode": 1,
+      "error": "* daemon not running; starting now at tcp:5037\r\ncould not read ok from ADB Server\r\n* failed to start daemon\r\nerror: cannot connect to daemon",
+      "ok": false
+    },
+    {
+      "args": [
+        "shell",
+        "pidof",
+        "com.assignment.realitydefender"
+      ],
+      "attempt": 3,
+      "connectionState": "",
+      "returnCode": 1,
+      "error": "* daemon not running; starting now at tcp:5037\r\ncould not read ok from ADB Server\r\n* failed to start daemon\r\nerror: cannot connect to daemon",
+      "ok": false
+    }
+  ],
+  "rawDiagnostics": "tmp/device-health/20261111T102407Z",
+  "interpretation": [
+    "Advancing motion event timestamps demonstrate sensor delivery during this capture; merely listing a sensor does not.",
+    "An unsubscribed sensor is not expected to deliver new events; old gyro timestamps after AR closes do not indicate failure.",
+    "Camera service process survival and a readable dump do not prove preview frames or camera/IMU synchronization.",
+    "No active camera client is normal when no application is using the camera; it is not a camera crash.",
+    "ARCore synchronization warnings do not alone prove sensor failure or calibration damage.",
+    "No matching crash line means none in the available current game-process buffer, not that no historical crash occurred.",
+    "Calibration, visual camera pose response, and physical world-anchor stability need an observed AR run."
+  ],
+  "laterCaptureAttempt": {
+    "utc": "2026-11-11T10:24:07.484889+00:00",
+    "captureComplete": false,
+    "report": "tmp/device-health/20261111T102407Z/summary.json",
+    "reason": "Host ADB daemon became unavailable during Unity verification/shutdown; no subsequent phone-health conclusion."
+  }
+}

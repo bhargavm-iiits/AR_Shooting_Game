@@ -1,0 +1,20 @@
+{
+  "utc": "2026-11-11T10:37:05.261322+00:00",
+  "serial": "29f7bb1b",
+  "model": "CPH2487",
+  "android": "16",
+  "api": "36",
+  "abis": "arm64-v8a,armeabi-v7a,armeabi",
+  "arServiceVersion": "1.57.262640293",
+  "processId": "13727",
+  "foreground": true,
+  "installedSha256": "F675A6EAAE02BB5D50E16D3F0B92E71F8999FD26ED9B37DB78C50DCC0939CBA3",
+  "matchesDeliveredApk": true,
+  "cameraPermissionGranted": true,
+  "managedFailureLinesInAvailableAppLog": [],
+  "arCoreNoPointHitMessages": 0,
+  "arCoreImuClockWarnings": 0,
+  "physicalFloorPlacementAndAnchorStability": "Pending observed floor placement and camera movement",
+  "actualARDemoVideo": "Pending; phone rejected ADB screenrecord output with Permission denied",
+  "screenshot": "Submission/Device-Final-AR.png"
+}

@@ -1,0 +1,24 @@
+---
+name: unity-mobile-vfx
+description: Create an editable URP Shader Graph for visible energy targets and a bounded Particle System impact for a Unity mobile AR game. Use when authoring or verifying target materials, hit effects, or their Android rendering.
+---
+
+# Unity mobile target shader and impact
+
+## Author the target graph
+
+1. Confirm the installed URP and Shader Graph versions. Create an **Unlit Shader Graph** under **Assets > Create > Shader Graph > URP** and set its Surface Type to **Opaque**. Start with front-face rendering, normal depth testing and writing, and unmodified vertex positions. [URP Unlit graph reference](https://docs.unity3d.com/6000.5/Documentation/Manual/urp/prebuilt-shader-graphs-urp-unlit.html)
+2. Expose a small seamless grayscale `Noise` texture, Vector2 `Tiling` and `Scroll`, LDR colors `CoreDark`, `CoreBright`, `VeinColor`, and `RimColor`, and floats `RimPower` and `RimStrength`. For Reality Defender, use a texture with fine branching bright ridges over softer noise. Import it as linear data with Repeat, bilinear filtering, and mipmaps. Start with a 128 px tile, `Tiling = (2, 2)`, and `Scroll = (0.18, 0.10)` in UV units per second.
+3. Multiply `UV0.xy` by `Tiling`, add the **Time** output multiplied by `Scroll`, and connect to a single **Sample Texture 2D** node. Use `Smoothstep(0.22, 0.75, R)` to blend `CoreDark` into `CoreBright`, then use a tighter `Smoothstep(0.74, 0.96, R)` to bring in the bright `VeinColor` on the ridges. Start with a dark cobalt core, electric-blue midtones, and hot violet-magenta veins. Adjust the thresholds to the actual texture and check the pattern at game scale. [Time node](https://docs.unity3d.com/Packages/com.unity.shadergraph@17.5/manual/Time-Node.html), [Sample Texture 2D node](https://docs.unity3d.com/Packages/com.unity.shadergraph@17.5/manual/Sample-Texture-2D-Node.html)
+4. Use **Fresnel Effect** with its world-space normal and view direction and `RimPower` as Power. Feed `Saturate(Fresnel * RimStrength)` into a **Lerp** from the animated body to a bright cyan `RimColor`. Connect the result to Fragment **Base Color**. Start at `RimPower = 2.2` and `RimStrength = 1.0`. Tune the rim and vein contrast with bloom off. Broaden the rim if it collapses to a thin line at play distance. [Fresnel Effect node](https://docs.unity3d.com/Packages/com.unity.shadergraph@17.5/manual/Fresnel-Effect-Node.html)
+5. Save the `.shadergraph`, create a shared `.mat` from it, and assign that material directly to the target prefab's retained source-derived renderer. For Reality Defender, inspect `Assets/Game_Assets/energy_orb.glb` and select a representative visible sphere shell or reduce the mesh while preserving the silhouette, UVs, and smooth normals. The original has 12 meshes and about 11,520 indexed triangles with a nearly transparent material. Keep a simple sphere collider independent of the render mesh and leave its shape stable.
+
+## Author a bounded impact
+
+- Create a non-looping Unity **Particle System** prefab with Play On Awake off and world simulation space. Use a tight violet-white flash with 12–16 short cyan and magenta sparks, a shared URP Particles Unlit material, and a quick size and alpha fade. Start with a particle lifetime of 0.2–0.4 seconds, Max Particles set to 16, and zero continuous emission. Leave collision, particle trails, lights, and soft particles off on the mobile tier. [URP Particles Unlit material](https://docs.unity3d.com/6000.5/Documentation/Manual/urp/particles-unlit-shader.html)
+- Prewarm a small pool independent of the target prefab, with three slots for a three-target wave. On an accepted hit, play one inactive slot at the reported world-space impact position. Set Main Stop Action to **Disable** so the slot becomes available once its particles have expired. Clear and deactivate all slots on wave reset. If the pool is full, skip the effect while gameplay continues. The effect consumes an accepted hit event and owns only presentation. [Particle System stop action](https://docs.unity3d.com/6000.5/Documentation/ScriptReference/ParticleSystem.MainModule-stopAction.html)
+
+## Verify and capture
+
+- Reopen the graph and material, confirm the material reference on the actual target prefab, and inspect the shader in the active Android URP renderer. Check the scrolling mask and cyan silhouette at intended aim distance against light and dark camera backgrounds with bloom off. Confirm each accepted hit hides its orb and plays a short burst and that pool reset leaves no live particles.
+- Build and check the target and burst on an Android handset. Watch for pink materials, shader errors, unreadable rims, or slowdowns with all targets visible. Record the device and graphics API and separate Editor checks from device observations. Save a legible screenshot of the actual Shader Graph with node groups, wires, Fragment output, and preview visible, alongside the graph, material, and prefab asset paths.

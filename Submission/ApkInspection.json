@@ -1,0 +1,30 @@
+{
+  "inspectedUtc": "2026-11-11T11:51:20.146773+00:00",
+  "apk": "D:\\Unity Projects\\Assignment\\Builds\\Android\\RealityDefender.apk",
+  "bytes": 43863508,
+  "sha256": "C08E5AFC6E4BAE12EEB3400472FE6A29FFE83EEC2C3B78F510C73E699C2CC158",
+  "signatureVerified": true,
+  "signer": "Android Debug (local sideload build)",
+  "packageId": "com.assignment.realitydefender",
+  "version": "1.0.0",
+  "minSdk": 26,
+  "targetSdk": 36,
+  "graphicsRequirement": "OpenGL ES 3.0",
+  "arOptional": true,
+  "cameraHardwareOptional": true,
+  "abis": [
+    "arm64-v8a"
+  ],
+  "nativeLibraries": [
+    "lib/arm64-v8a/libUnityARCore.so",
+    "lib/arm64-v8a/lib_burst_generated.so",
+    "lib/arm64-v8a/libarcore_sdk_c.so",
+    "lib/arm64-v8a/libarcore_sdk_jni.so",
+    "lib/arm64-v8a/libarpresto_api.so",
+    "lib/arm64-v8a/libc++_shared.so",
+    "lib/arm64-v8a/libgame.so",
+    "lib/arm64-v8a/libil2cpp.so",
+    "lib/arm64-v8a/libmain.so",
+    "lib/arm64-v8a/libunity.so"
+  ]
+}

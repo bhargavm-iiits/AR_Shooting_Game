@@ -1,0 +1,1201 @@
+--------- beginning of system
+V/Configuration( 7422): Updating configuration, locales updated from [] to [en_GB]
+D/ResourcesManagerExtImpl( 7422): applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+D/ResourcesManagerExtImpl( 7422): applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+D/OplusInputMethodUtil( 7422): init sDebug to false, init sDebugIme to false, init sAlwaysOn to false
+D/OplusInputMethodUtil( 7422): updateDebugToClass InputMethodManager.DEBUG = false
+D/OplusInputMethodUtil( 7422): updateDebugToClass ImeFocusController.DEBUG = false
+D/OplusInputMethodUtil( 7422): updateDebugToClass OnBackInvokedDispatcher.DEBUG = false
+D/OplusInputMethodUtil( 7422): updateDebugToClass InsetsController.DEBUG = false
+D/OplusInputMethodUtil( 7422): updateDebugToClass BaseInputConnection.DEBUG = false
+D/OplusPredictiveBackController( 7422): should not HookOnBackInvokedCallbackEnabled for application com.unity3d.player.UnityPlayerGameActivity@f4baaf6 hasOnBackInvokedCallBackEnabled
+D/ActivityThread( 7422): ComponentInfo{com.assignment.realitydefender/com.unity3d.player.UnityPlayerGameActivity} checkFinished=false 2
+D/ResourcesManagerExtImpl( 7422): applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+D/InsetsController( 7422): Setting requestedVisibleTypes to -16 (was -9)
+D/ResourcesManagerExtImpl( 7422): applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0
+D/VRI[UnityPlayerGameActivity]( 7422): relayoutWindow result, sizeChanged:true, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(1240, 2772), mLastSurfaceSize:Point(0, 0), mWidth:-1, mHeight:-1, requestedWidth:1240, requestedHeight:2772, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:-2139029248, tmpFrames:ClientWindowFrames{frame=[0,0][1240,2772] display=[0,0][1240,2772] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+W/VRI[UnityPlayerGameActivity]( 7422): updateBlastSurfaceIfNeeded, surfaceSize:Point(1240, 2772), lastSurfaceSize:Point(0, 0), format:-3, blastBufferQueue:null
+W/VRI[UnityPlayerGameActivity]( 7422): handleResized, msg:, frameChanged:false, configChanged:false, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+W/VRI[UnityPlayerGameActivity]( 7422): handleResized, msg:, frameChanged:false, configChanged:false, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+D/VRI[UnityPlayerGameActivity]( 7422): relayoutWindow result, sizeChanged:false, surfaceControlChanged:false, transformHintChanged:false, mSurfaceSize:Point(1240, 2772), mLastSurfaceSize:Point(1240, 2772), mWidth:1240, mHeight:2772, requestedWidth:1240, requestedHeight:2772, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:-2139029120, tmpFrames:ClientWindowFrames{frame=[0,0][1240,2772] display=[0,0][1240,2772] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+W/VRI[UnityPlayerGameActivity]( 7422): updateBlastSurfaceIfNeeded, surfaceSize:Point(1240, 2772), lastSurfaceSize:Point(1240, 2772), format:-3, blastBufferQueue:android.graphics.BLASTBufferQueue@a22c6a2
+I/DisplayManager( 7422): Implicitly registering for refresh rate
+D/VRI[UnityPlayerGameActivity]( 7422): relayoutWindow result, sizeChanged:false, surfaceControlChanged:false, transformHintChanged:false, mSurfaceSize:Point(1240, 2772), mLastSurfaceSize:Point(1240, 2772), mWidth:1240, mHeight:2772, requestedWidth:1240, requestedHeight:2772, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:-2139029248, tmpFrames:ClientWindowFrames{frame=[0,0][1240,2772] display=[0,0][1240,2772] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+W/VRI[UnityPlayerGameActivity]( 7422): updateBlastSurfaceIfNeeded, surfaceSize:Point(1240, 2772), lastSurfaceSize:Point(1240, 2772), format:-3, blastBufferQueue:android.graphics.BLASTBufferQueue@a22c6a2
+D/OplusInputMethodManagerInternal( 7422): get inputMethodManager extension: com.android.internal.view.IInputMethodManager$Stub$Proxy@bd0b902
+W/VRI[UnityPlayerGameActivity]( 7422): handleResized abandoned!
+--------- beginning of main
+E/native  ( 7422): E0000 00:00:1794393172.938640    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393172.972838    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393172.983248    8293 circular_memory_allocator.h:54] CircularMemoryAllocator overflow: capacity 2097152, head 1298952, tail 3377344, size 20736, alignment 8
+I/native  ( 7422): I0000 00:00:1794393172.989517    8291 vio_fault_detector.cc:655] [VioFaultDetector] Insufficient inliers or feature ratio ( 0 / 268), in VIO update for duration: 303.934323ms Min ratio: 0.2
+E/native  ( 7422): E0000 00:00:1794393173.004991    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393173.038633    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393173.062063    8298 critical_event_logging.cc:312]                    [CELog Instant] [FEATURE_DSP_CAM_IMU_DESYNC] [1794393173_062045] Camera to IMU clock offset (-10.10186325ms) exceeds threshold (5ms).
+E/native  ( 7422): E0000 00:00:1794393173.072389    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393173.088543    8291 vio_fault_detector.cc:434] [VioFaultDetector] Not enough ransac inliers=63 ransac_inlier_ratio=0.102107 for duration: 101.311458ms.
+E/native  ( 7422): E0000 00:00:1794393173.104943    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393173.139348    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/Unity   ( 7422): Reality Defender AR diagnostic: session=SessionTracking reason=None camera=world=(19.389, -1.163, -6.961) rot=(75.8, 272.9, 344.0) local=(19.389, -1.163, -6.961) localRot=(75.8, 272.9, 344.0) inputPosition=unavailable plane=none anchor=none reticle=hidden
+I/Unity   ( 7422): UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+I/Unity   ( 7422): RealityDefender.PlacementController:LogTrackingDiagnostic()
+I/Unity   ( 7422): RealityDefender.PlacementController:LateUpdate()
+I/Unity   ( 7422): 
+E/native  ( 7422): E0000 00:00:1794393173.173960    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393173.206358    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393173.239088    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393173.273682    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393173.306541    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393173.338529    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393173.373081    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393173.404705    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393173.417310    8519 logging_helper.h:101] [Live DS] [Camera][0] Accumulative count: 760
+E/native  ( 7422): E0000 00:00:1794393173.437638    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393173.471921    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393173.506435    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393173.538903    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393173.571867    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393173.574009    8291 vio_fault_detector.cc:655] [VioFaultDetector] Insufficient inliers or feature ratio ( 0 / 24), in VIO update for duration: 101.311459ms Min ratio: 0.2
+I/native  ( 7422): I0000 00:00:1794393173.574103    8291 vio_fault_detector.cc:56] timestamp_ns_in_image_clock: 2034029955632
+I/native  ( 7422): I0000 00:00:1794393173.574120    8291 vio_fault_detector.cc:58]  timestamp_ns_in_imu_clock: 2034020009041
+I/native  ( 7422): I0000 00:00:1794393173.574133    8291 vio_fault_detector.cc:60] bias: 0.494618 0.154783 -0.42498 -0.00938383 -0.00566591  0.00296266
+I/native  ( 7422): I0000 00:00:1794393173.574230    8291 vio_fault_detector.cc:63] accel_bias_variance:  0.00130515  0.00125869 0.000112774
+I/native  ( 7422): I0000 00:00:1794393173.574266    8291 vio_fault_detector.cc:67] gyro_bias_variance: 1.42687e-07 2.00725e-07 5.11077e-07
+I/native  ( 7422): I0000 00:00:1794393173.574320    8291 vio_fault_detector.cc:72] imu_transform_sensor: 200  0.0195082 -0.0155235  0.0339326 -0.702931  0.710421 0.0240885 0.0246971
+I/native  ( 7422): I0000 00:00:1794393173.574384    8291 vio_fault_detector.cc:78] camera_intrinsics: 200 432.059 432.259 316.539 239.332
+I/native  ( 7422): I0000 00:00:1794393173.574407    8291 vio_fault_detector.cc:82] global_velocity_imu:   2.19523   1.11259 0.0182877
+I/native  ( 7422): I0000 00:00:1794393173.574425    8291 vio_fault_detector.cc:85] global_velocity_imu_variance:  0.00617775  0.00250966 0.000165154
+I/native  ( 7422): I0000 00:00:1794393173.574442    8291 vio_fault_detector.cc:90] global_pose_imu_variance:  2.1454e-05 1.49471e-05 2.92763e-05   0.0300328   0.0111923  0.00103295
+I/native  ( 7422): I0000 00:00:1794393173.574465    8291 vio_fault_detector.cc:94] imu_scale_and_misalignment:     1.00276     1.05154     1.01009 -0.00723235   0.0144283   0.0123161     1.00808     1.00776     1.02959  0.00948542  0.00220234   0.0126579  -0.0100532 -0.00407126  0.00457582   -0.999931
+I/native  ( 7422): I0000 00:00:1794393173.574504    8291 vio_fault_detector.cc:97] imu_scale_and_misalignment_covariance:  6.5932e-08 7.66854e-08 7.78813e-08 7.35282e-08 7.60089e-08 7.78504e-08 7.98737e-08 7.15623e-08 7.26356e-08 6.77173e-08 6.66241e-08 7.09546e-08 6.66324e-08 6.53267e-08 6.69936e-08
+I/native  ( 7422): I0000 00:00:1794393173.574573    8291 vio_fault_detector.cc:101] adf_t_vio: 0 0 0
+I/native  ( 7422): I0000 00:00:1794393173.574590    8291 vio_fault_detector.cc:104] adf_t_vio_covariance: 0 0 0 0 0 0
+E/native  ( 7422): E0000 00:00:1794393173.605250    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393173.638085    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393173.672389    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393173.705578    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393173.737153    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393173.763879    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_GYROSCOPE_UNCALIBRATED_0] Accumulative count: 5200
+E/native  ( 7422): E0000 00:00:1794393173.771974    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393173.800521    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_ACCELEROMETER_0] Accumulative count: 5199
+E/native  ( 7422): E0000 00:00:1794393173.804836    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393173.838164    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393173.874299    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393173.889993    8291 vio_fault_detector.cc:655] [VioFaultDetector] Insufficient inliers or feature ratio ( 19 / 241), in VIO update for duration: 405.245782ms Min ratio: 0.2
+E/native  ( 7422): E0000 00:00:1794393173.903802    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393173.937644    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393173.971045    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393173.971210    8293 critical_event_logging.cc:312]                    [CELog Instant] [FEATURE_DSP_FEATURES_TRACKS_INSUFFICIENT] [1794393173_971199] Feature tracks are less than threshold (17/20).
+W/native  ( 7422): W0000 00:00:1794393173.971777    8298 critical_event_logging.cc:312]                    [CELog Instant] [FEATURE_DSP_RANSAC_INLIER_INSUFFICIENT] [1794393173_971772] Feature RANSAC inlier is less than threshold (13/20).
+E/native  ( 7422): E0000 00:00:1794393174.003665    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393174.037430    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393174.071110    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393174.074263    8293 circular_memory_allocator.h:54] CircularMemoryAllocator overflow: capacity 2097152, head 1298952, tail 3380952, size 20736, alignment 8
+E/native  ( 7422): E0000 00:00:1794393174.104004    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393174.137064    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393174.170498    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393174.181436    8291 vio_fault_detector.cc:434] [VioFaultDetector] Not enough ransac inliers=3 ransac_inlier_ratio=0.0163934 for duration: 303.934323ms.
+I/Unity   ( 7422): Reality Defender AR diagnostic: session=SessionTracking reason=None camera=world=(21.753, -0.997, -6.189) rot=(55.0, 289.6, 354.6) local=(21.753, -0.997, -6.189) localRot=(55.0, 289.6, 354.6) inputPosition=unavailable plane=none anchor=none reticle=hidden
+I/Unity   ( 7422): UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+I/Unity   ( 7422): RealityDefender.PlacementController:LogTrackingDiagnostic()
+I/Unity   ( 7422): RealityDefender.PlacementController:LateUpdate()
+I/Unity   ( 7422): 
+E/native  ( 7422): E0000 00:00:1794393174.204717    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393174.238545    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393174.272649    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393174.305900    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393174.337935    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393174.371620    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393174.386281    8291 vio_fault_detector.cc:655] [VioFaultDetector] Insufficient inliers or feature ratio ( 1 / 43), in VIO update for duration: 202.622916ms Min ratio: 0.2
+E/native  ( 7422): E0000 00:00:1794393174.404443    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393174.435152    8519 logging_helper.h:101] [Live DS] [Camera][0] Accumulative count: 790
+E/native  ( 7422): E0000 00:00:1794393174.438831    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393174.438950    8299 viwls_optimization.cc:1463] [M] MAP SOLVE: Iterations: 7, Cost: 9.408419e+07 -> 2.762397e+01, Reason: USER_SUCCESS
+W/native  ( 7422): W0000 00:00:1794393174.456034    8299 data_manager_helpers.cc:28] [M] Not enough keyframes or landmarks to publish map: num_keyframes: 31, num_landmarks: 0
+E/native  ( 7422): E0000 00:00:1794393174.471487    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393174.506882    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393174.539358    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393174.569766    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393174.598491    8291 vio_fault_detector.cc:56] timestamp_ns_in_image_clock: 2035043070059
+I/native  ( 7422): I0000 00:00:1794393174.598658    8291 vio_fault_detector.cc:58]  timestamp_ns_in_imu_clock: 2035032416945
+I/native  ( 7422): I0000 00:00:1794393174.598678    8291 vio_fault_detector.cc:60] bias:   0.49659  0.145068 -0.422176 -0.00947292 -0.00545931  0.00292828
+I/native  ( 7422): I0000 00:00:1794393174.598726    8291 vio_fault_detector.cc:63] accel_bias_variance:  0.00129279  0.00122297 0.000109855
+I/native  ( 7422): I0000 00:00:1794393174.598744    8291 vio_fault_detector.cc:67] gyro_bias_variance: 1.43996e-07 1.96612e-07  5.1342e-07
+I/native  ( 7422): I0000 00:00:1794393174.598763    8291 vio_fault_detector.cc:72] imu_transform_sensor: 200  0.0195055 -0.0155248  0.0339331 -0.702922   0.71043 0.0240796 0.0247097
+I/native  ( 7422): I0000 00:00:1794393174.598795    8291 vio_fault_detector.cc:78] camera_intrinsics: 200 432.059 432.213 316.587 239.388
+I/native  ( 7422): I0000 00:00:1794393174.598818    8291 vio_fault_detector.cc:82] global_velocity_imu:   2.9657  1.36201 0.516368
+I/native  ( 7422): I0000 00:00:1794393174.600793    8291 vio_fault_detector.cc:85] global_velocity_imu_variance:   0.0108193  0.00402905 0.000153963
+I/native  ( 7422): I0000 00:00:1794393174.600859    8291 vio_fault_detector.cc:90] global_pose_imu_variance: 2.17763e-05 1.57006e-05  3.7614e-05   0.0696293   0.0236358  0.00183094
+I/native  ( 7422): I0000 00:00:1794393174.601173    8291 vio_fault_detector.cc:94] imu_scale_and_misalignment:     1.00276     1.05154     1.01009 -0.00722675   0.0144204   0.0123174     1.00809     1.00775     1.02959  0.00947742  0.00220017   0.0126574  -0.0100551 -0.00407282  0.00456968   -0.999931
+I/native  ( 7422): I0000 00:00:1794393174.601400    8291 vio_fault_detector.cc:97] imu_scale_and_misalignment_covariance: 6.59711e-08 7.67685e-08 7.79767e-08 7.36138e-08 7.60798e-08 7.79171e-08  7.9956e-08 7.16311e-08  7.2736e-08 6.77978e-08 6.67224e-08 7.10549e-08 6.67276e-08 6.54255e-08 6.70467e-08
+I/native  ( 7422): I0000 00:00:1794393174.601447    8291 vio_fault_detector.cc:101] adf_t_vio: 0 0 0
+I/native  ( 7422): I0000 00:00:1794393174.601481    8291 vio_fault_detector.cc:104] adf_t_vio_covariance: 0 0 0 0 0 0
+E/native  ( 7422): E0000 00:00:1794393174.603930    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393174.637544    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393174.670387    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393174.687650    8291 vio_fault_detector.cc:655] [VioFaultDetector] Insufficient inliers or feature ratio ( 6 / 62), in VIO update for duration: 506.557239ms Min ratio: 0.2
+E/native  ( 7422): E0000 00:00:1794393174.704649    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393174.737571    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393174.770978    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393174.772505    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_GYROSCOPE_UNCALIBRATED_0] Accumulative count: 5400
+I/native  ( 7422): I0000 00:00:1794393174.801232    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_ACCELEROMETER_0] Accumulative count: 5398
+E/native  ( 7422): E0000 00:00:1794393174.803328    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393174.838938    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393174.841122    8462 motion_analysis_calculator.cc:652] Analyzed frame 801
+E/native  ( 7422): E0000 00:00:1794393174.872293    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393174.905853    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393174.941726    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393174.972887    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393174.999822    8291 vio_fault_detector.cc:655] [VioFaultDetector] Insufficient inliers or feature ratio ( 10 / 211), in VIO update for duration: 810.491562ms Min ratio: 0.2
+E/native  ( 7422): E0000 00:00:1794393175.005091    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393175.040565    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393175.072477    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393175.088036    8298 critical_event_logging.cc:312]                    [CELog Instant] [FEATURE_DSP_CAM_IMU_DESYNC] [1794393175_088021] Camera to IMU clock offset (-11.0695455ms) exceeds threshold (5ms).
+I/native  ( 7422): I0000 00:00:1794393175.098444    8294 circular_memory_allocator.h:54] CircularMemoryAllocator overflow: capacity 2097152, head 310664, tail 2400320, size 20736, alignment 8
+E/native  ( 7422): E0000 00:00:1794393175.104084    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393175.141501    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393175.171342    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393175.204278    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/Unity   ( 7422): Reality Defender AR diagnostic: session=SessionTracking reason=None camera=world=(24.908, -0.572, -5.181) rot=(49.9, 297.4, 349.2) local=(24.908, -0.572, -5.181) localRot=(49.9, 297.4, 349.2) inputPosition=unavailable plane=none anchor=none reticle=hidden
+I/Unity   ( 7422): UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+I/Unity   ( 7422): RealityDefender.PlacementController:LogTrackingDiagnostic()
+I/Unity   ( 7422): RealityDefender.PlacementController:LateUpdate()
+I/Unity   ( 7422): 
+E/native  ( 7422): E0000 00:00:1794393175.237491    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393175.271771    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393175.304182    8291 vio_fault_detector.cc:655] [VioFaultDetector] Insufficient inliers or feature ratio ( 5 / 72), in VIO update for duration: 1.114425885s Min ratio: 0.2
+E/native  ( 7422): E0000 00:00:1794393175.305485    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393175.336521    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393175.370766    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393175.404892    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/IJankManager( 7422): slideSceneEnd unknown scene 1000 mScene:-1
+E/native  ( 7422): E0000 00:00:1794393175.436264    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393175.446226    8519 logging_helper.h:101] [Live DS] [Camera][0] Accumulative count: 820
+E/native  ( 7422): E0000 00:00:1794393175.471000    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393175.502331    8291 vio_fault_detector.cc:257] [VioFaultDetector] VIO is moving fast with speed (m/s): 3.92255 but RANSAC failed to provide valid frame to frame translation by reporting degeneracy for duration: 101.311459ms
+E/native  ( 7422): E0000 00:00:1794393175.504538    7554 hit_test.cc:427] INTERNAL: No point hit.
+D/OplusViewDragTouchViewHelper( 7422): dispatchTouchView action = 1
+D/ViewRootImplExtImpl( 7422): the up motion event handled by client, just return
+E/native  ( 7422): E0000 00:00:1794393175.536541    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393175.571103    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393175.571380    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393175.605294    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393175.624458    8291 vio_fault_detector.cc:655] [VioFaultDetector] Insufficient inliers or feature ratio ( 33 / 223), in VIO update for duration: 1.41836026s Min ratio: 0.2
+I/native  ( 7422): I0000 00:00:1794393175.624555    8291 vio_fault_detector.cc:56] timestamp_ns_in_image_clock: 2036056184538
+I/native  ( 7422): I0000 00:00:1794393175.624571    8291 vio_fault_detector.cc:58]  timestamp_ns_in_imu_clock: 2036044887680
+I/native  ( 7422): I0000 00:00:1794393175.624581    8291 vio_fault_detector.cc:60] bias: 0.496693 0.146658 -0.42261 -0.00944712 -0.00555734  0.00285043
+I/native  ( 7422): I0000 00:00:1794393175.624613    8291 vio_fault_detector.cc:63] accel_bias_variance: 0.00129133  0.0012212 0.00010988
+I/native  ( 7422): I0000 00:00:1794393175.624627    8291 vio_fault_detector.cc:67] gyro_bias_variance: 1.49416e-07 1.99669e-07 5.18017e-07
+I/native  ( 7422): I0000 00:00:1794393175.624641    8291 vio_fault_detector.cc:72] imu_transform_sensor: 200  0.0195099 -0.0155245  0.0339334 -0.702928  0.710423 0.0240916 0.0246987
+I/native  ( 7422): I0000 00:00:1794393175.624664    8291 vio_fault_detector.cc:78] camera_intrinsics: 200 432.079 432.209 316.606 239.354
+I/native  ( 7422): I0000 00:00:1794393175.624681    8291 vio_fault_detector.cc:82] global_velocity_imu:  3.52004  1.83267 0.180349
+I/native  ( 7422): I0000 00:00:1794393175.624696    8291 vio_fault_detector.cc:85] global_velocity_imu_variance:   0.0169019  0.00597105 0.000271964
+I/native  ( 7422): I0000 00:00:1794393175.624711    8291 vio_fault_detector.cc:90] global_pose_imu_variance: 2.20381e-05 1.76117e-05 4.68268e-05    0.145071    0.048786  0.00301232
+I/native  ( 7422): I0000 00:00:1794393175.624729    8291 vio_fault_detector.cc:94] imu_scale_and_misalignment:     1.00276     1.05154     1.01009 -0.00723631   0.0144319   0.0123105     1.00808     1.00775     1.02959  0.00947916  0.00220096    0.012658  -0.0100548 -0.00407298  0.00457162   -0.999931
+I/native  ( 7422): I0000 00:00:1794393175.624760    8291 vio_fault_detector.cc:97] imu_scale_and_misalignment_covariance: 6.60683e-08 7.68576e-08 7.80728e-08 7.36882e-08 7.61398e-08 7.80014e-08 8.00502e-08 7.17316e-08 7.28371e-08 6.78984e-08 6.68232e-08 7.11561e-08 6.68286e-08 6.55265e-08 6.71414e-08
+I/native  ( 7422): I0000 00:00:1794393175.624788    8291 vio_fault_detector.cc:101] adf_t_vio: 0 0 0
+I/native  ( 7422): I0000 00:00:1794393175.624802    8291 vio_fault_detector.cc:104] adf_t_vio_covariance: 0 0 0 0 0 0
+E/native  ( 7422): E0000 00:00:1794393175.635651    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393175.670936    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393175.706409    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393175.715490    8291 vio_fault_detector.cc:667] [VioFaultDetector] Fault: VIO has consecutive bad visual update, for duration: 1.519671666s >= 1.5s. Current velocity 4.06278 m/sec.
+E/native  ( 7422): E0000 00:00:1794393175.715651    8291 critical_event_logging.cc:312]                    [CELog Instant] [VIO_STATE_ANOMALY] [1794393175_715644] VIO is at fault conditions, wait for reset, faults: 3
+W/native  ( 7422): W0000 00:00:1794393175.715664    8291 vio_estimator.cc:1668] [VioEstimator] VIO is at fault conditions, wait for reset. Current timestamp in ns = 2036157495944 ns, Ralph timestamp in ns = 2036157495944
+W/native  ( 7422): W0000 00:00:1794393175.715680    8291 vio_estimator.cc:1132] [VioEstimator] Resetting VIO at timestamp = 2036157495944 ns, faults: 3, 
+E/native  ( 7422): E0000 00:00:1794393175.715702    8291 critical_event_logging.cc:312]                    [CELog Instant] [VIO_RESET] [1794393175_715700] VIO Reset, faults: 3
+E/native  ( 7422): E0000 00:00:1794393175.715714    8291 critical_event_logging.cc:312]                    [CELog Instant] [VIO_OUTPUT_NOT_TRACKING] [1794393175_715712] VIO Tracking state is not tracking.
+I/native  ( 7422): I0000 00:00:1794393175.732616    8299 data_manager.cc:981] [M] VisualInertialState is kNotTracking. Reset the map.
+I/native  ( 7422): I0000 00:00:1794393175.732827    8299 multi_map_manager.cc:894] [M] MultiMapManager added a new inactive map with id 8cded5a9-01d3-2cfe-84df-9692aa9cdeaa, 43 non-marginalized keyframes, and 2 landmarks.
+I/native  ( 7422): I0000 00:00:1794393175.732870    8299 multi_map_manager.cc:813] [M] MultiMapManager added ADF 8cded5a9-01d3-2cfe-84df-9692aa9cdeaa with 43 keyframes and 2 landmarks to adf_graph.
+I/native  ( 7422): I0000 00:00:1794393175.733245    8299 multi_map_manager.cc:944] [M] MultiMapManager has 3 adfs in adf_graph and owns 3 maps (0 persistent maps and 2 inactive maps).
+E/native  ( 7422): E0000 00:00:1794393175.737795    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393175.747033    8299 visual_inertial_wls.cc:292] [M] Initializing VisualInertialWLS with viwls_config_.enable_loop_closure: true
+I/native  ( 7422): I0000 00:00:1794393175.747338    8299 visual_inertial_wls.cc:296] [M] Initializing VisualInertialWLS with viwls_config_.run_pgo_before_bundle_adjustment: false
+E/native  ( 7422): E0000 00:00:1794393175.770367    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393175.772663    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_GYROSCOPE_UNCALIBRATED_0] Accumulative count: 5600
+I/native  ( 7422): I0000 00:00:1794393175.798005    8291 vio_estimator.cc:1465] [VioEstimator] [PauseResume] HandleInitializationStage with feature tracks at timestamp: 2036258807403 ns.
+E/native  ( 7422): E0000 00:00:1794393175.803095    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393175.804740    8291 vio_initializer.cc:907] INTERNAL: [SSBA Initialization] Failed: Image has too few landmarks. [Required: 9, Actual: 7].; 
+E/native  ( 7422):  Initializer's SSBA failed to produce a valid output.
+E/native  ( 7422): === Source Location Trace: ===
+E/native  ( 7422): third_party/redwood/perception/odometry/visual_inertial_initialization/bundle_adjustment_initializer.cc:233
+E/native  ( 7422): E0000 00:00:1794393175.804815    8291 critical_event_logging.cc:312]                    [CELog Instant] [VIO_INITIALIZE_RETRY] [1794393175_804808] VIO initialize failed
+I/native  ( 7422): I0000 00:00:1794393175.805441    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_ACCELEROMETER_0] Accumulative count: 5598
+I/native  ( 7422): I0000 00:00:1794393175.806014    8299 data_manager.cc:979] [M] VisualInertialState is kNotTracking. Wait.
+E/native  ( 7422): E0000 00:00:1794393175.836531    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393175.869463    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393175.897783    8291 vio_estimator.cc:1465] [VioEstimator] [PauseResume] HandleInitializationStage with feature tracks at timestamp: 2036360118861 ns.
+E/native  ( 7422): E0000 00:00:1794393175.903317    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393175.909524    8291 bundle_adjustment_initializer.cc:774] Intrinsic vector size for camera id:200 is 7
+W/native  ( 7422): W0000 00:00:1794393175.930605    8291 bundle_adjustment_initializer.cc:1005] [SSBA Depth Refinement] No inlier depth observations for SSBA frames.
+I/native  ( 7422): I0000 00:00:1794393175.931095    8291 bundle_adjustment_initialization.h:278] Number of measurements used in BA initialization for temporal landmarks: 353
+I/native  ( 7422): I0000 00:00:1794393175.931141    8291 bundle_adjustment_initialization.h:280] Number of good measurements (i.e., reprojection errors <= 3 pixels) in BA initialization for temporal landmarks: 264
+I/native  ( 7422): I0000 00:00:1794393175.931210    8291 vio_estimator.cc:368] [VioEstimator] Initialization sliding window states 
+I/native  ( 7422): I0000 00:00:1794393175.931220    8291 vio_estimator.cc:371] [VioEstimator] state 0 IMU position: [0]; [0]; [0]
+I/native  ( 7422): I0000 00:00:1794393175.931236    8291 vio_estimator.cc:371] [VioEstimator] state 1 IMU position: [-0.0120664]; [0.00456736]; [0.00928592]
+I/native  ( 7422): I0000 00:00:1794393175.931251    8291 vio_estimator.cc:371] [VioEstimator] state 2 IMU position: [-0.0212529]; [0.00981113]; [0.0157901]
+I/native  ( 7422): I0000 00:00:1794393175.931264    8291 vio_estimator.cc:371] [VioEstimator] state 3 IMU position: [-0.0266462]; [0.0132292]; [0.0190761]
+I/native  ( 7422): I0000 00:00:1794393175.931277    8291 vio_estimator.cc:371] [VioEstimator] state 4 IMU position: [-0.0294042]; [0.0126899]; [0.0202585]
+I/native  ( 7422): I0000 00:00:1794393175.931291    8291 vio_estimator.cc:371] [VioEstimator] state 5 IMU position: [-0.0287359]; [0.0130907]; [0.0217401]
+I/native  ( 7422): I0000 00:00:1794393175.931304    8291 vio_estimator.cc:371] [VioEstimator] state 6 IMU position: [-0.025225]; [0.016675]; [0.0226701]
+I/native  ( 7422): I0000 00:00:1794393175.931317    8291 vio_estimator.cc:371] [VioEstimator] state 7 IMU position: [-0.0200262]; [0.0186401]; [0.0227387]
+I/native  ( 7422): I0000 00:00:1794393175.931330    8291 vio_estimator.cc:371] [VioEstimator] state 8 IMU position: [-0.0122245]; [0.0207359]; [0.0243552]
+I/native  ( 7422): I0000 00:00:1794393175.931343    8291 vio_estimator.cc:377] [VioEstimator] Maintain Yaw transformation: [-0.958277, -0.28584, 2.08517e-17, 24.6285]; [0.28584, -0.958277, -2.13585e-17, -2.41915]; [2.60868e-17, -1.45072e-17, 1, -0.335754]; [0, 0, 0, 1]
+I/native  ( 7422): I0000 00:00:1794393175.931398    8291 vio_estimator.cc:391] [VioEstimator] Initialization sliding window states affine MaintainYaw transformation: 
+I/native  ( 7422): I0000 00:00:1794393175.931407    8291 vio_estimator.cc:395] [VioEstimator] state 0 transformed IMU position: [24.6285]; [-2.41915]; [-0.335754]
+I/native  ( 7422): I0000 00:00:1794393175.931423    8291 vio_estimator.cc:395] [VioEstimator] state 1 transformed IMU position: [24.6388]; [-2.42698]; [-0.326468]
+I/native  ( 7422): I0000 00:00:1794393175.931437    8291 vio_estimator.cc:395] [VioEstimator] state 2 transformed IMU position: [24.6461]; [-2.43463]; [-0.319964]
+I/native  ( 7422): I0000 00:00:1794393175.931451    8291 vio_estimator.cc:395] [VioEstimator] state 3 transformed IMU position: [24.6503]; [-2.43944]; [-0.316678]
+I/native  ( 7422): I0000 00:00:1794393175.931466    8291 vio_estimator.cc:395] [VioEstimator] state 4 transformed IMU position: [24.6531]; [-2.43972]; [-0.315496]
+I/native  ( 7422): I0000 00:00:1794393175.931480    8291 vio_estimator.cc:395] [VioEstimator] state 5 transformed IMU position: [24.6523]; [-2.43991]; [-0.314014]
+I/native  ( 7422): I0000 00:00:1794393175.931542    8291 vio_estimator.cc:395] [VioEstimator] state 6 transformed IMU position: [24.6479]; [-2.44234]; [-0.313084]
+I/native  ( 7422): I0000 00:00:1794393175.931556    8291 vio_estimator.cc:395] [VioEstimator] state 7 transformed IMU position: [24.6424]; [-2.44274]; [-0.313015]
+I/native  ( 7422): I0000 00:00:1794393175.931571    8291 vio_estimator.cc:395] [VioEstimator] state 8 transformed IMU position: [24.6343]; [-2.44252]; [-0.311399]
+E/native  ( 7422): E0000 00:00:1794393175.932406    8291 ralph_kf.cc:433] [Ralph::Initialize] Extended Kalman Filter Correction failed.
+E/native  ( 7422): E0000 00:00:1794393175.932675    8291 ralph_kf.cc:433] [Ralph::Initialize] Extended Kalman Filter Correction failed.
+E/native  ( 7422): E0000 00:00:1794393175.932939    8291 ralph_kf.cc:433] [Ralph::Initialize] Extended Kalman Filter Correction failed.
+E/native  ( 7422): E0000 00:00:1794393175.933208    8291 ralph_kf.cc:433] [Ralph::Initialize] Extended Kalman Filter Correction failed.
+I/native  ( 7422): I0000 00:00:1794393175.933351    8291 vio_estimator.cc:1566] [VioEstimator] Successful initialization at features timestamp: 2036360118861 ns, took:101.311458ms, processed frames: 2
+I/native  ( 7422): I0000 00:00:1794393175.933468    8291 critical_event_logging.cc:312]                    [CELog Instant] [VIO_TRACKING] [1794393175_933460]  VIO initialize success
+E/native  ( 7422): E0000 00:00:1794393175.936303    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393175.969332    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393175.996783    8291 ralph_kf.cc:1081] Increasing total number of noise blocks from 0  to 840
+E/native  ( 7422): E0000 00:00:1794393176.002482    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393176.035837    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393176.069179    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/IJankManager( 7422): slideSceneEnd unknown scene 1000 mScene:-1
+E/native  ( 7422): E0000 00:00:1794393176.101141    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393176.128302    8271 fused_pose_provider.cc:620] kInertial changed to kVio tracking, world_change triggered
+I/native  ( 7422): I0000 00:00:1794393176.129443    8271 latest_pose_tracker.cc:326] [LatestPoseTracker] Reset
+I/native  ( 7422): I0000 00:00:1794393176.129494    8271 travel_latest_pose_tracker.cc:269] [TravelLatestPoseTracker] Reset
+I/native  ( 7422): I0000 00:00:1794393176.129517    8271 pose_manager.cc:468] [PoseManager] World pose node changing to new VIO pose node created: 2210305910100392686
+I/native  ( 7422): I0000 00:00:1794393176.129542    8271 latest_pose_tracker.cc:517] [LatestPoseTracker] Received first vio state.
+W/native  ( 7422): W0000 00:00:1794393176.130377    8299 data_manager.cc:880] [M] Gap between data timestamps is larger than expected: 0.303934 > 0.2 seconds!
+W/native  ( 7422): W0000 00:00:1794393176.131848    8320 pose_manager.cc:252] NOT_FOUND: [PoseManager] GetRecentDevicePose: Failed to query base node T world. Could not retrieve pose from pose graph.
+W/native  ( 7422): === Source Location Trace: ===
+W/native  ( 7422): third_party/redwood/perception/pose_manager/pose_node_graph.cc:333
+E/native  ( 7422): E0000 00:00:1794393176.135715    7554 hit_test.cc:427] INTERNAL: No point hit.
+D/OplusViewDragTouchViewHelper( 7422): dispatchTouchView action = 1
+D/ViewRootImplExtImpl( 7422): the up motion event handled by client, just return
+E/native  ( 7422): E0000 00:00:1794393176.170656    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393176.201223    8291 ralph_kf.cc:1081] Increasing total number of noise blocks from 840  to 1295
+E/native  ( 7422): E0000 00:00:1794393176.202348    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393176.202500    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393176.236634    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/IJankManager( 7422): slideSceneEnd unknown scene 1000 mScene:-1
+I/Unity   ( 7422): Reality Defender AR diagnostic: session=SessionTracking reason=None camera=world=(26.002, -0.287, -1.802) rot=(54.4, 283.8, 346.5) local=(26.002, -0.287, -1.802) localRot=(54.4, 283.8, 346.5) inputPosition=unavailable plane=none anchor=none reticle=hidden
+I/Unity   ( 7422): UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+I/Unity   ( 7422): RealityDefender.PlacementController:LogTrackingDiagnostic()
+I/Unity   ( 7422): RealityDefender.PlacementController:LateUpdate()
+I/Unity   ( 7422): 
+E/native  ( 7422): E0000 00:00:1794393176.270605    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393176.303929    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393176.306694    8291 ralph_kf.cc:1081] Increasing total number of noise blocks from 1295  to 1360
+E/native  ( 7422): E0000 00:00:1794393176.335539    7554 hit_test.cc:427] INTERNAL: No point hit.
+D/OplusViewDragTouchViewHelper( 7422): dispatchTouchView action = 1
+D/ViewRootImplExtImpl( 7422): the up motion event handled by client, just return
+E/native  ( 7422): E0000 00:00:1794393176.369851    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393176.404662    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393176.404857    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/IJankManager( 7422): slideSceneEnd unknown scene 1000 mScene:-1
+E/native  ( 7422): E0000 00:00:1794393176.436292    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393176.464331    8519 logging_helper.h:101] [Live DS] [Camera][0] Accumulative count: 850
+E/native  ( 7422): E0000 00:00:1794393176.469620    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393176.504972    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393176.535993    7554 hit_test.cc:427] INTERNAL: No point hit.
+D/OplusViewDragTouchViewHelper( 7422): dispatchTouchView action = 1
+D/ViewRootImplExtImpl( 7422): the up motion event handled by client, just return
+E/native  ( 7422): E0000 00:00:1794393176.569430    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393176.569580    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393176.607662    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/IJankManager( 7422): slideSceneEnd unknown scene 1000 mScene:-1
+E/native  ( 7422): E0000 00:00:1794393176.633875    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393176.668091    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393176.720139    8291 ralph_kf.cc:1081] Increasing total number of noise blocks from 1360  to 1425
+D/OplusViewDragTouchViewHelper( 7422): dispatchTouchView action = 1
+D/ViewRootImplExtImpl( 7422): the up motion event handled by client, just return
+E/native  ( 7422): E0000 00:00:1794393176.768323    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393176.768438    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393176.775661    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_GYROSCOPE_UNCALIBRATED_0] Accumulative count: 5800
+E/native  ( 7422): E0000 00:00:1794393176.801381    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/IJankManager( 7422): slideSceneEnd unknown scene 1000 mScene:-1
+I/native  ( 7422): I0000 00:00:1794393176.814046    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_ACCELEROMETER_0] Accumulative count: 5798
+E/native  ( 7422): E0000 00:00:1794393176.835139    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393176.868363    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393176.902595    7554 hit_test.cc:427] INTERNAL: No point hit.
+D/OplusViewDragTouchViewHelper( 7422): dispatchTouchView action = 1
+D/ViewRootImplExtImpl( 7422): the up motion event handled by client, just return
+E/native  ( 7422): E0000 00:00:1794393176.937090    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393176.971709    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393176.971872    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/IJankManager( 7422): slideSceneEnd unknown scene 1000 mScene:-1
+E/native  ( 7422): E0000 00:00:1794393177.008455    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393177.019427    8291 vio_fault_detector.cc:655] [VioFaultDetector] Insufficient inliers or feature ratio ( 0 / 1), in VIO update for duration: 101.311406ms Min ratio: 0.2
+I/native  ( 7422): I0000 00:00:1794393177.019549    8291 vio_fault_detector.cc:56] timestamp_ns_in_image_clock: 2037474544746
+I/native  ( 7422): I0000 00:00:1794393177.019569    8291 vio_fault_detector.cc:58]  timestamp_ns_in_imu_clock: 2037459663048
+I/native  ( 7422): I0000 00:00:1794393177.019583    8291 vio_fault_detector.cc:60] bias: 0.472933 0.248143 -0.27773  0.00179173 0.000731106 0.000474368
+I/native  ( 7422): I0000 00:00:1794393177.019624    8291 vio_fault_detector.cc:63] accel_bias_variance: 0.00239468 0.00192138 0.00123194
+I/native  ( 7422): I0000 00:00:1794393177.019641    8291 vio_fault_detector.cc:67] gyro_bias_variance: 1.60934e-06 7.00425e-06 4.59399e-06
+I/native  ( 7422): I0000 00:00:1794393177.019659    8291 vio_fault_detector.cc:72] imu_transform_sensor: 400 0 0 0 0 0 0 1
+I/native  ( 7422): I0000 00:00:1794393177.019685    8291 vio_fault_detector.cc:78] camera_intrinsics: 200 431.884 431.735  316.82 239.342
+I/native  ( 7422): I0000 00:00:1794393177.019706    8291 vio_fault_detector.cc:82] global_velocity_imu: -0.0498031   0.380266  -0.126948
+I/native  ( 7422): I0000 00:00:1794393177.019724    8291 vio_fault_detector.cc:85] global_velocity_imu_variance: 0.000748087  0.00330161  0.00116129
+I/native  ( 7422): I0000 00:00:1794393177.019741    8291 vio_fault_detector.cc:90] global_pose_imu_variance: 5.31209e-05 3.06179e-05  1.0609e-05 0.000260627  0.00135635 0.000471133
+I/native  ( 7422): I0000 00:00:1794393177.019764    8291 vio_fault_detector.cc:94] imu_scale_and_misalignment:      1.0028     1.05163      1.0101 -0.00722318   0.0144212   0.0123073     1.00809     1.00776     1.02963  0.00947561  0.00219835   0.0126799   -0.010055 -0.00407217  0.00457254   -0.999931
+I/native  ( 7422): I0000 00:00:1794393177.019829    8291 vio_fault_detector.cc:97] imu_scale_and_misalignment_covariance: 6.62056e-08 7.69927e-08 7.82234e-08 7.38123e-08 7.62869e-08 7.81513e-08 8.02018e-08 7.18665e-08 7.29147e-08 6.80462e-08 6.69696e-08  7.1273e-08 6.69731e-08 6.56738e-08  6.7289e-08
+I/native  ( 7422): I0000 00:00:1794393177.019890    8291 vio_fault_detector.cc:101] adf_t_vio: 0 0 0
+I/native  ( 7422): I0000 00:00:1794393177.019913    8291 vio_fault_detector.cc:104] adf_t_vio_covariance: 0 0 0 0 0 0
+E/native  ( 7422): E0000 00:00:1794393177.034694    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393177.069051    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393177.103488    7554 hit_test.cc:427] INTERNAL: No point hit.
+D/OplusViewDragTouchViewHelper( 7422): dispatchTouchView action = 1
+D/ViewRootImplExtImpl( 7422): the up motion event handled by client, just return
+E/native  ( 7422): E0000 00:00:1794393177.121996    8298 critical_event_logging.cc:312]                    [CELog Instant] [FEATURE_DSP_CAM_IMU_DESYNC] [1794393177_121977] Camera to IMU clock offset (-14.88169875ms) exceeds threshold (5ms).
+E/native  ( 7422): E0000 00:00:1794393177.136542    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393177.168866    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393177.169097    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393177.205703    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393177.234994    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393177.270479    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/Unity   ( 7422): Reality Defender AR diagnostic: session=SessionTracking reason=None camera=world=(26.025, -0.387, -1.549) rot=(55.0, 283.6, 345.9) local=(26.025, -0.387, -1.549) localRot=(55.0, 283.6, 345.9) inputPosition=unavailable plane=none anchor=none reticle=hidden
+I/Unity   ( 7422): UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+I/Unity   ( 7422): RealityDefender.PlacementController:LogTrackingDiagnostic()
+I/Unity   ( 7422): RealityDefender.PlacementController:LateUpdate()
+I/Unity   ( 7422): 
+E/native  ( 7422): E0000 00:00:1794393177.304342    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393177.335818    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393177.343912    8291 circular_memory_allocator.h:54] CircularMemoryAllocator overflow: capacity 4194304, head 1202808, tail 5391128, size 20736, alignment 8
+E/native  ( 7422): E0000 00:00:1794393177.372171    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393177.404302    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393177.437330    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393177.449031    8291 vio_fault_detector.cc:655] [VioFaultDetector] Insufficient inliers or feature ratio ( 0 / 256), in VIO update for duration: 303.934323ms Min ratio: 0.2
+E/native  ( 7422): E0000 00:00:1794393177.470746    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393177.481081    8519 logging_helper.h:101] [Live DS] [Camera][0] Accumulative count: 880
+E/native  ( 7422): E0000 00:00:1794393177.506712    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393177.523766    8298 critical_event_logging.cc:312]                    [CELog Instant] [FEATURE_DSP_RANSAC_INLIER_INSUFFICIENT] [1794393177_523756] Feature RANSAC inlier is less than threshold (17/20).
+E/native  ( 7422): E0000 00:00:1794393177.534705    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393177.542059    8291 vio_fault_detector.cc:434] [VioFaultDetector] Not enough ransac inliers=17 ransac_inlier_ratio=0.197674 for duration: 101.311458ms.
+E/native  ( 7422): E0000 00:00:1794393177.569653    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393177.602815    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393177.634288    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393177.669656    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393177.677733    8344 android_data_source.cc:727] [Live DS] Callback list for SENSOR_TYPE_ACCELEROMETER at ordinal 0 not found.
+E/native  ( 7422): E0000 00:00:1794393177.701409    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393177.735847    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393177.769466    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393177.782834    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_GYROSCOPE_UNCALIBRATED_0] Accumulative count: 5999
+E/native  ( 7422): E0000 00:00:1794393177.803610    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393177.815805    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_ACCELEROMETER_0] Accumulative count: 5998
+E/native  ( 7422): E0000 00:00:1794393177.836044    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393177.843281    8291 vio_fault_detector.cc:655] [VioFaultDetector] Insufficient inliers or feature ratio ( 4 / 26), in VIO update for duration: 101.311458ms Min ratio: 0.2
+E/native  ( 7422): E0000 00:00:1794393177.867642    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393177.900364    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393177.934110    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393177.968783    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393178.001578    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393178.036350    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393178.039408    8291 vio_fault_detector.cc:56] timestamp_ns_in_image_clock: 2038487659226
+I/native  ( 7422): I0000 00:00:1794393178.039497    8291 vio_fault_detector.cc:58]  timestamp_ns_in_imu_clock: 2038473588942
+I/native  ( 7422): I0000 00:00:1794393178.039511    8291 vio_fault_detector.cc:60] bias: 0.482401 0.236355  -0.2981  0.00183103 0.000482573    0.001828
+I/native  ( 7422): I0000 00:00:1794393178.039556    8291 vio_fault_detector.cc:63] accel_bias_variance: 0.00237169 0.00185401 0.00097103
+I/native  ( 7422): I0000 00:00:1794393178.039573    8291 vio_fault_detector.cc:67] gyro_bias_variance: 7.51949e-07   5.647e-06 3.58724e-06
+I/native  ( 7422): I0000 00:00:1794393178.039590    8291 vio_fault_detector.cc:72] imu_transform_sensor: 400 0 0 0 0 0 0 1
+I/native  ( 7422): I0000 00:00:1794393178.039699    8291 vio_fault_detector.cc:78] camera_intrinsics: 200   431.9 431.673 316.864 239.353
+I/native  ( 7422): I0000 00:00:1794393178.039803    8291 vio_fault_detector.cc:82] global_velocity_imu: 0.187968 0.940185 0.261588
+I/native  ( 7422): I0000 00:00:1794393178.039835    8291 vio_fault_detector.cc:85] global_velocity_imu_variance: 0.000437714  0.00832218  0.00210559
+I/native  ( 7422): I0000 00:00:1794393178.039864    8291 vio_fault_detector.cc:90] global_pose_imu_variance: 5.67196e-05 2.58771e-05 2.25431e-05 0.000474216  0.00858829  0.00270055
+I/native  ( 7422): I0000 00:00:1794393178.040358    8291 vio_fault_detector.cc:94] imu_scale_and_misalignment:     1.00281     1.05163     1.01009 -0.00722656   0.0144226   0.0123055     1.00809     1.00776     1.02962   0.0094767  0.00220179   0.0126752  -0.0100551 -0.00407378  0.00457589   -0.999931
+I/native  ( 7422): I0000 00:00:1794393178.040500    8291 vio_fault_detector.cc:97] imu_scale_and_misalignment_covariance: 6.62949e-08  7.7073e-08 7.83169e-08 7.38052e-08 7.63554e-08 7.82472e-08 8.03024e-08 7.19652e-08 7.29984e-08  6.8147e-08 6.70688e-08 7.13695e-08 6.70733e-08 6.57743e-08 6.73818e-08
+I/native  ( 7422): I0000 00:00:1794393178.040924    8291 vio_fault_detector.cc:101] adf_t_vio: 0 0 0
+I/native  ( 7422): I0000 00:00:1794393178.040954    8291 vio_fault_detector.cc:104] adf_t_vio_covariance: 0 0 0 0 0 0
+E/native  ( 7422): E0000 00:00:1794393178.069212    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393178.103986    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393178.129297    8297 critical_event_logging.cc:312]                    [CELog Instant] [FEATURE_DSP_FEATURES_TRACKS_INSUFFICIENT] [1794393178_129288] Feature tracks are less than threshold (14/20).
+E/native  ( 7422): E0000 00:00:1794393178.136854    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393178.167265    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393178.202771    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393178.217455    8462 motion_analysis_calculator.cc:652] Analyzed frame 901
+E/native  ( 7422): E0000 00:00:1794393178.235823    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393178.267568    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393178.301883    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393178.333673    8291 vio_fault_detector.cc:655] [VioFaultDetector] Insufficient inliers or feature ratio ( 6 / 33), in VIO update for duration: 205.094739ms Min ratio: 0.2
+I/Unity   ( 7422): Reality Defender AR diagnostic: session=SessionTracking reason=None camera=world=(26.284, -0.202, -1.036) rot=(38.4, 321.5, 354.9) local=(26.284, -0.202, -1.036) localRot=(38.4, 321.5, 354.9) inputPosition=unavailable plane=none anchor=none reticle=hidden
+I/Unity   ( 7422): UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+I/Unity   ( 7422): RealityDefender.PlacementController:LogTrackingDiagnostic()
+I/Unity   ( 7422): RealityDefender.PlacementController:LateUpdate()
+I/Unity   ( 7422): 
+E/native  ( 7422): E0000 00:00:1794393178.337113    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393178.368128    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393178.401922    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393178.433282    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393178.468273    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393178.481166    8519 logging_helper.h:101] [Live DS] [Camera][0] Accumulative count: 910
+E/native  ( 7422): E0000 00:00:1794393178.503333    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393178.535217    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393178.544700    8291 vio_fault_detector.cc:434] [VioFaultDetector] Not enough ransac inliers=42 ransac_inlier_ratio=0.0525 for duration: 507.495028ms.
+E/native  ( 7422): E0000 00:00:1794393178.566960    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393178.602056    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393178.636160    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393178.655125    8291 vio_fault_detector.cc:655] [VioFaultDetector] Insufficient inliers or feature ratio ( 0 / 79), in VIO update for duration: 505.060364ms Min ratio: 0.2
+E/native  ( 7422): E0000 00:00:1794393178.667343    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393178.701898    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393178.735117    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393178.768327    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393178.784864    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_GYROSCOPE_UNCALIBRATED_0] Accumulative count: 6200
+E/native  ( 7422): E0000 00:00:1794393178.800492    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393178.818927    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_ACCELEROMETER_0] Accumulative count: 6198
+E/native  ( 7422): E0000 00:00:1794393178.836466    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393178.854228    8294 circular_memory_allocator.h:54] CircularMemoryAllocator overflow: capacity 2097152, head 299560, tail 2396680, size 48, alignment 16
+E/native  ( 7422): E0000 00:00:1794393178.868437    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393178.901910    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393178.933140    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393178.944305    8291 vio_fault_detector.cc:655] [VioFaultDetector] Insufficient inliers or feature ratio ( 6 / 250), in VIO update for duration: 805.026041ms Min ratio: 0.2
+E/native  ( 7422): E0000 00:00:1794393178.966003    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393179.000772    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393179.035828    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393179.046490    8291 vio_fault_detector.cc:56] timestamp_ns_in_image_clock: 2039495097014
+I/native  ( 7422): I0000 00:00:1794393179.046563    8291 vio_fault_detector.cc:58]  timestamp_ns_in_imu_clock: 2039482015342
+I/native  ( 7422): I0000 00:00:1794393179.047395    8291 vio_fault_detector.cc:60] bias:  0.450932  0.253815 -0.326821 0.000977958  0.00453016 0.000300913
+I/native  ( 7422): I0000 00:00:1794393179.047440    8291 vio_fault_detector.cc:63] accel_bias_variance:  0.00185492  0.00147072 0.000742267
+I/native  ( 7422): I0000 00:00:1794393179.047455    8291 vio_fault_detector.cc:67] gyro_bias_variance: 6.52571e-07 4.21374e-06 2.96017e-06
+I/native  ( 7422): I0000 00:00:1794393179.047470    8291 vio_fault_detector.cc:72] imu_transform_sensor: 400 0 0 0 0 0 0 1
+I/native  ( 7422): I0000 00:00:1794393179.047491    8291 vio_fault_detector.cc:78] camera_intrinsics: 200 431.938 431.617 316.911 239.286
+I/native  ( 7422): I0000 00:00:1794393179.047508    8291 vio_fault_detector.cc:82] global_velocity_imu: -0.338275  0.776912 -0.183481
+I/native  ( 7422): I0000 00:00:1794393179.047522    8291 vio_fault_detector.cc:85] global_velocity_imu_variance: 0.000933953  0.00846485 0.000348822
+I/native  ( 7422): I0000 00:00:1794393179.047535    8291 vio_fault_detector.cc:90] global_pose_imu_variance: 4.91174e-05 2.20894e-05 4.01297e-05 0.000647035   0.0147979 0.000870202
+I/native  ( 7422): I0000 00:00:1794393179.047553    8291 vio_fault_detector.cc:94] imu_scale_and_misalignment:      1.0028     1.05165     1.01008 -0.00722299   0.0144362   0.0122998     1.00809     1.00776     1.02961  0.00947025  0.00219676   0.0126732  -0.0100542 -0.00407186  0.00457493   -0.999931
+I/native  ( 7422): I0000 00:00:1794393179.047649    8291 vio_fault_detector.cc:97] imu_scale_and_misalignment_covariance: 6.63413e-08 7.71423e-08 7.84069e-08 7.37529e-08 7.63916e-08  7.8337e-08 8.04024e-08 7.20513e-08 7.30848e-08 6.82285e-08 6.71526e-08 7.14479e-08 6.71535e-08 6.58633e-08  6.7453e-08
+I/native  ( 7422): I0000 00:00:1794393179.047688    8291 vio_fault_detector.cc:101] adf_t_vio: 0 0 0
+I/native  ( 7422): I0000 00:00:1794393179.047703    8291 vio_fault_detector.cc:104] adf_t_vio_covariance: 0 0 0 0 0 0
+E/IJankManager( 7422): slideSceneEnd unknown scene 1000 mScene:-1
+E/native  ( 7422): E0000 00:00:1794393179.066745    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393179.103614    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393179.128977    8298 critical_event_logging.cc:312]                    [CELog Instant] [FEATURE_DSP_CAM_IMU_DESYNC] [1794393179_128962] Camera to IMU clock offset (-13.30530875ms) exceeds threshold (5ms).
+E/native  ( 7422): E0000 00:00:1794393179.136592    7554 hit_test.cc:427] INTERNAL: No point hit.
+D/OplusViewDragTouchViewHelper( 7422): dispatchTouchView action = 1
+D/ViewRootImplExtImpl( 7422): the up motion event handled by client, just return
+E/native  ( 7422): E0000 00:00:1794393179.167416    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393179.200803    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393179.201015    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393179.234955    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393179.267200    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393179.300781    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393179.333095    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/Unity   ( 7422): Reality Defender AR diagnostic: session=SessionTracking reason=None camera=world=(26.130, -0.359, -0.684) rot=(42.2, 342.9, 350.7) local=(26.130, -0.359, -0.684) localRot=(42.2, 342.9, 350.7) inputPosition=unavailable plane=none anchor=none reticle=hidden
+I/Unity   ( 7422): UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+I/Unity   ( 7422): RealityDefender.PlacementController:LogTrackingDiagnostic()
+I/Unity   ( 7422): RealityDefender.PlacementController:LateUpdate()
+I/Unity   ( 7422): 
+E/native  ( 7422): E0000 00:00:1794393179.367213    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393179.401975    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/IJankManager( 7422): slideSceneEnd unknown scene 1000 mScene:-1
+E/native  ( 7422): E0000 00:00:1794393179.433764    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393179.467391    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393179.468834    8299 viwls_optimization.cc:1463] [M] MAP SOLVE: Iterations: 14, Cost: 1.276528e+09 -> 3.251691e+02, Reason: USER_SUCCESS
+D/OplusViewDragTouchViewHelper( 7422): dispatchTouchView action = 1
+D/ViewRootImplExtImpl( 7422): the up motion event handled by client, just return
+W/native  ( 7422): W0000 00:00:1794393179.479863    8299 data_manager_helpers.cc:28] [M] Not enough keyframes or landmarks to publish map: num_keyframes: 26, num_landmarks: 2
+I/native  ( 7422): I0000 00:00:1794393179.484834    8519 logging_helper.h:101] [Live DS] [Camera][0] Accumulative count: 940
+E/native  ( 7422): E0000 00:00:1794393179.500098    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393179.532375    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393179.532576    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393179.538280    8291 vio_fault_detector.cc:257] [VioFaultDetector] VIO is moving fast with speed (m/s): 1.33342 but RANSAC failed to provide valid frame to frame translation by reporting degeneracy for duration: 99.988542ms
+I/native  ( 7422): I0000 00:00:1794393179.538514    8291 vio_fault_detector.cc:655] [VioFaultDetector] Insufficient inliers or feature ratio ( 2 / 62), in VIO update for duration: 99.988542ms Min ratio: 0.2
+E/native  ( 7422): E0000 00:00:1794393179.566025    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/IJankManager( 7422): slideSceneEnd unknown scene 1000 mScene:-1
+E/native  ( 7422): E0000 00:00:1794393179.599523    7554 hit_test.cc:427] INTERNAL: No point hit.
+D/OplusViewDragTouchViewHelper( 7422): dispatchTouchView action = 1
+D/ViewRootImplExtImpl( 7422): the up motion event handled by client, just return
+E/native  ( 7422): E0000 00:00:1794393179.632385    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393179.635242    8294 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393179.635319    8293 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393179.635354    8294 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393179.635243    8291 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393179.665457    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393179.665625    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393179.701178    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393179.735246    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393179.737884    8291 vio_fault_detector.cc:345] [VioFaultDetector] VIO and Ransac results are not consistent for 99.988541ms.
+E/native  ( 7422): E0000 00:00:1794393179.768704    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393179.789055    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_GYROSCOPE_UNCALIBRATED_0] Accumulative count: 6400
+E/native  ( 7422): E0000 00:00:1794393179.801055    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393179.822476    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_ACCELEROMETER_0] Accumulative count: 6398
+E/native  ( 7422): E0000 00:00:1794393179.835316    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393179.866333    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393179.899127    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393179.937034    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393179.954057    8291 vio_fault_detector.cc:434] [VioFaultDetector] Not enough ransac inliers=96 ransac_inlier_ratio=0.134831 for duration: 99.988594ms.
+E/native  ( 7422): E0000 00:00:1794393179.966512    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393179.999286    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393180.034467    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393180.065439    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393180.072275    8291 vio_fault_detector.cc:655] [VioFaultDetector] Insufficient inliers or feature ratio ( 3 / 255), in VIO update for duration: 299.965677ms Min ratio: 0.2
+I/native  ( 7422): I0000 00:00:1794393180.072395    8291 vio_fault_detector.cc:56] timestamp_ns_in_image_clock: 2040494982587
+I/native  ( 7422): I0000 00:00:1794393180.072408    8291 vio_fault_detector.cc:58]  timestamp_ns_in_imu_clock: 2040480037996
+I/native  ( 7422): I0000 00:00:1794393180.072417    8291 vio_fault_detector.cc:60] bias:  0.467782  0.319865 -0.362717   0.00280866 -0.000520548  -0.00120134
+I/native  ( 7422): I0000 00:00:1794393180.072449    8291 vio_fault_detector.cc:63] accel_bias_variance:  0.00156504  0.00121972 0.000636847
+I/native  ( 7422): I0000 00:00:1794393180.072462    8291 vio_fault_detector.cc:67] gyro_bias_variance: 4.44442e-07 2.09414e-06  2.6858e-06
+I/native  ( 7422): I0000 00:00:1794393180.072476    8291 vio_fault_detector.cc:72] imu_transform_sensor: 200  0.0195231 -0.0154938  0.0339456 -0.702908  0.710445 0.0240641 0.0246876
+I/native  ( 7422): I0000 00:00:1794393180.072500    8291 vio_fault_detector.cc:78] camera_intrinsics: 200 432.027 431.878 316.923  239.24
+I/native  ( 7422): I0000 00:00:1794393180.072518    8291 vio_fault_detector.cc:82] global_velocity_imu:  -1.01385   1.40412 -0.476694
+I/native  ( 7422): I0000 00:00:1794393180.072531    8291 vio_fault_detector.cc:85] global_velocity_imu_variance:  0.00278554  0.00653254 0.000656026
+I/native  ( 7422): I0000 00:00:1794393180.072545    8291 vio_fault_detector.cc:90] global_pose_imu_variance: 3.57052e-05 1.74518e-05 5.60339e-05   0.0033228    0.015102  0.00227856
+I/native  ( 7422): I0000 00:00:1794393180.072563    8291 vio_fault_detector.cc:94] imu_scale_and_misalignment:     1.00278     1.05161      1.0101 -0.00722513    0.014435   0.0123006     1.00809     1.00778      1.0296  0.00947408  0.00219988   0.0126862  -0.0100454 -0.00407255  0.00457662   -0.999931
+I/native  ( 7422): I0000 00:00:1794393180.072592    8291 vio_fault_detector.cc:97] imu_scale_and_misalignment_covariance: 6.64229e-08 7.71309e-08 7.84979e-08 7.37448e-08 7.64271e-08 7.83881e-08 8.05011e-08 7.21374e-08 7.31764e-08 6.83157e-08 6.72429e-08 7.15354e-08 6.72237e-08 6.59573e-08 6.75473e-08
+I/native  ( 7422): I0000 00:00:1794393180.072620    8291 vio_fault_detector.cc:101] adf_t_vio: 0 0 0
+I/native  ( 7422): I0000 00:00:1794393180.072633    8291 vio_fault_detector.cc:104] adf_t_vio_covariance: 0 0 0 0 0 0
+E/native  ( 7422): E0000 00:00:1794393180.099318    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393180.133118    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393180.165304    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393180.199909    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393180.223713    8296 circular_memory_allocator.h:54] CircularMemoryAllocator overflow: capacity 4194304, head 857096, tail 5051400, size 48, alignment 16
+E/native  ( 7422): E0000 00:00:1794393180.232780    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393180.266546    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393180.299579    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393180.334903    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393180.346620    8291 vio_fault_detector.cc:655] [VioFaultDetector] Insufficient inliers or feature ratio ( 8 / 241), in VIO update for duration: 599.931354ms Min ratio: 0.2
+I/native  ( 7422): I0000 00:00:1794393180.357388    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2040794948264 camera_index: 0 num_inlier_points: 9 inlier_ratio: 0.428571 previous_geometric_verification_status: kFailed curr_adf_T_vio: q = [x: -6.82702e-09, y: -3.43875e-09, z: 0.228777, w: 0.973479], p = [x: -21.1922, y: 10.1185, z: 1.06902]
+I/native  ( 7422): I0000 00:00:1794393180.357670    8291 ralph_kf.cc:1097] Increasing total number of sbr noise blocks from 0  to 525
+E/native  ( 7422): E0000 00:00:1794393180.358507    8291 critical_event_logging.cc:312]                    [CELog Instant] [VIO_PROCESS_MAP_CONSTRAINT_FAIL] [1794393180_358496] 2 consistent ADF to VIO transformation from MLE are required to initialize this variable in VIO. Current value is 1.
+E/native  ( 7422): E0000 00:00:1794393180.365511    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/Unity   ( 7422): Reality Defender AR diagnostic: session=SessionTracking reason=None camera=world=(25.589, -0.802, 0.863) rot=(31.9, 339.9, 357.1) local=(25.589, -0.802, 0.863) localRot=(31.9, 339.9, 357.1) inputPosition=unavailable plane=none anchor=none reticle=hidden
+I/Unity   ( 7422): UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+I/Unity   ( 7422): RealityDefender.PlacementController:LogTrackingDiagnostic()
+I/Unity   ( 7422): RealityDefender.PlacementController:LateUpdate()
+I/Unity   ( 7422): 
+E/native  ( 7422): E0000 00:00:1794393180.401082    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393180.434573    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393180.462044    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2040894936806 camera_index: 0 num_inlier_points: 11 inlier_ratio: 0.478261 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery curr_adf_T_vio: q = [x: -2.29928e-08, y: 1.56269e-09, z: 0.295148, w: 0.955451], p = [x: -19.723, y: 12.9819, z: 1.10673]
+E/native  ( 7422): E0000 00:00:1794393180.466156    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393180.499016    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393180.516335    8519 logging_helper.h:101] [Live DS] [Camera][0] Accumulative count: 971
+E/native  ( 7422): E0000 00:00:1794393180.532412    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393180.565814    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393180.599804    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393180.632248    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393180.664852    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393180.699397    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393180.732168    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393180.757795    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2041194902431 camera_index: 0 num_inlier_points: 10 inlier_ratio: 0.666667 previous_geometric_verification_status: kFailed curr_adf_T_vio: q = [x: -6.0202e-09, y: -8.92705e-09, z: 0.19918, w: 0.979963], p = [x: -21.5268, y: 8.10657, z: 1.18376]
+E/native  ( 7422): E0000 00:00:1794393180.765190    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393180.792929    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_GYROSCOPE_UNCALIBRATED_0] Accumulative count: 6600
+E/native  ( 7422): E0000 00:00:1794393180.799241    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393180.825911    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_ACCELEROMETER_0] Accumulative count: 6598
+E/native  ( 7422): E0000 00:00:1794393180.832800    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393180.860736    8291 vio_fault_detector.cc:655] [VioFaultDetector] Insufficient inliers or feature ratio ( 1 / 204), in VIO update for duration: 299.965677ms Min ratio: 0.2
+E/native  ( 7422): E0000 00:00:1794393180.865277    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393180.868909    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2041294891025 camera_index: 0 num_inlier_points: 9 inlier_ratio: 0.473684 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery curr_adf_T_vio: q = [x: -3.53637e-08, y: -2.06273e-08, z: 0.205617, w: 0.978632], p = [x: -21.3448, y: 8.34636, z: 1.33588]
+E/native  ( 7422): E0000 00:00:1794393180.898866    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393180.931216    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393180.940343    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2041394879567 camera_index: 0 num_inlier_points: 10 inlier_ratio: 0.434783 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery curr_adf_T_vio: q = [x: -9.05696e-09, y: -6.30693e-09, z: 0.221614, w: 0.975134], p = [x: -21.0939, y: 8.6234, z: 1.37485]
+E/native  ( 7422): E0000 00:00:1794393180.965780    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393180.999076    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393181.031711    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393181.064797    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2041494868108 camera_index: 0 num_inlier_points: 16 inlier_ratio: 0.551724 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery curr_adf_T_vio: q = [x: 4.10556e-09, y: 4.13546e-09, z: 0.229438, w: 0.973323], p = [x: -20.9872, y: 8.93228, z: 1.42741]
+E/native  ( 7422): E0000 00:00:1794393181.064859    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393181.098987    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393181.132577    8298 critical_event_logging.cc:312]                    [CELog Instant] [FEATURE_DSP_CAM_IMU_DESYNC] [1794393181_132560] Camera to IMU clock offset (-14.44632325ms) exceeds threshold (5ms).
+E/native  ( 7422): E0000 00:00:1794393181.132785    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393181.149924    8291 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393181.149973    8293 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393181.150020    8296 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393181.150048    8293 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393181.164312    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393181.199567    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393181.231596    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393181.244627    8291 vio_fault_detector.cc:434] [VioFaultDetector] Not enough ransac inliers=108 ransac_inlier_ratio=0.135 for duration: 99.988594ms.
+E/native  ( 7422): E0000 00:00:1794393181.265612    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393181.299720    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393181.331859    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393181.352106    8291 vio_fault_detector.cc:56] timestamp_ns_in_image_clock: 2041795155358
+I/native  ( 7422): I0000 00:00:1794393181.352194    8291 vio_fault_detector.cc:58]  timestamp_ns_in_imu_clock: 2041779758919
+I/native  ( 7422): I0000 00:00:1794393181.352205    8291 vio_fault_detector.cc:60] bias:   0.45395  0.352793 -0.384741  0.00300797 0.000663028  0.00694733
+I/native  ( 7422): I0000 00:00:1794393181.352244    8291 vio_fault_detector.cc:63] accel_bias_variance: 0.000953205 0.000790449 0.000415221
+I/native  ( 7422): I0000 00:00:1794393181.352257    8291 vio_fault_detector.cc:67] gyro_bias_variance: 2.85943e-07 1.19608e-06 1.78285e-06
+I/native  ( 7422): I0000 00:00:1794393181.352271    8291 vio_fault_detector.cc:72] imu_transform_sensor: 400 0 0 0 0 0 0 1
+I/native  ( 7422): I0000 00:00:1794393181.352292    8291 vio_fault_detector.cc:78] camera_intrinsics: 200 432.568 432.937 316.699 239.298
+I/native  ( 7422): I0000 00:00:1794393181.352309    8291 vio_fault_detector.cc:82] global_velocity_imu:  -1.27288   2.30961 -0.638706
+I/native  ( 7422): I0000 00:00:1794393181.352323    8291 vio_fault_detector.cc:85] global_velocity_imu_variance: 0.00398727 0.00893179 0.00170738
+I/native  ( 7422): I0000 00:00:1794393181.352336    8291 vio_fault_detector.cc:90] global_pose_imu_variance: 3.34871e-05 7.80039e-06 6.33517e-05   0.0134999   0.0416148  0.00705071
+I/native  ( 7422): I0000 00:00:1794393181.352355    8291 vio_fault_detector.cc:94] imu_scale_and_misalignment:     1.00278     1.05143     1.01016  -0.0071625   0.0144301   0.0123533     1.00809      1.0078     1.02958  0.00946349  0.00220358   0.0126793  -0.0100529 -0.00407462  0.00457423   -0.999931
+I/native  ( 7422): I0000 00:00:1794393181.352387    8291 vio_fault_detector.cc:97] imu_scale_and_misalignment_covariance: 6.64594e-08 7.68411e-08 7.85718e-08 7.32962e-08 7.62478e-08 7.83506e-08 8.06295e-08 7.21928e-08 7.32565e-08 6.84111e-08 6.73514e-08 7.16522e-08 6.73058e-08 6.60735e-08 6.76618e-08
+I/native  ( 7422): I0000 00:00:1794393181.352414    8291 vio_fault_detector.cc:101] adf_t_vio: 0 0 0
+I/native  ( 7422): I0000 00:00:1794393181.352427    8291 vio_fault_detector.cc:104] adf_t_vio_covariance: 0 0 0 0 0 0
+E/native  ( 7422): E0000 00:00:1794393181.364583    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393181.399280    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/Unity   ( 7422): Reality Defender AR diagnostic: session=SessionTracking reason=None camera=world=(25.083, -1.415, 2.936) rot=(26.0, 333.0, 353.5) local=(25.083, -1.415, 2.936) localRot=(26.0, 333.0, 353.5) inputPosition=unavailable plane=none anchor=none reticle=hidden
+I/Unity   ( 7422): UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+I/Unity   ( 7422): RealityDefender.PlacementController:LogTrackingDiagnostic()
+I/Unity   ( 7422): RealityDefender.PlacementController:LateUpdate()
+I/Unity   ( 7422): 
+E/native  ( 7422): E0000 00:00:1794393181.435322    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393181.448678    8291 vio_fault_detector.cc:655] [VioFaultDetector] Insufficient inliers or feature ratio ( 2 / 124), in VIO update for duration: 200.298656ms Min ratio: 0.2
+I/native  ( 7422): I0000 00:00:1794393181.454362    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2041895143900 camera_index: 0 num_inlier_points: 9 inlier_ratio: 0.6 previous_geometric_verification_status: kFailed curr_adf_T_vio: q = [x: -2.14177e-09, y: 5.09229e-09, z: 0.144564, w: 0.989495], p = [x: -22.0632, y: 4.15414, z: 1.63163]
+E/native  ( 7422): E0000 00:00:1794393181.464135    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393181.498457    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393181.530425    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393181.538592    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2041995132442 camera_index: 0 num_inlier_points: 9 inlier_ratio: 0.6 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery curr_adf_T_vio: q = [x: 2.77618e-08, y: 9.92688e-09, z: 0.1386, w: 0.990348], p = [x: -22.0719, y: 3.69486, z: 1.65946]
+I/native  ( 7422): I0000 00:00:1794393181.541865    8519 logging_helper.h:101] [Live DS] [Camera][0] Accumulative count: 1002
+I/native  ( 7422): I0000 00:00:1794393181.544118    8462 motion_analysis_calculator.cc:652] Analyzed frame 1001
+E/native  ( 7422): E0000 00:00:1794393181.565359    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393181.598731    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393181.633682    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393181.664203    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393181.699403    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393181.731894    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393181.764183    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393181.798712    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_GYROSCOPE_UNCALIBRATED_0] Accumulative count: 6800
+E/native  ( 7422): E0000 00:00:1794393181.798776    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393181.831389    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_ACCELEROMETER_0] Accumulative count: 6798
+E/native  ( 7422): E0000 00:00:1794393181.831764    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393181.852113    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2042295245124 camera_index: 0 num_inlier_points: 8 inlier_ratio: 0.4 previous_geometric_verification_status: kFailed curr_adf_T_vio: q = [x: 4.1817e-08, y: 2.62168e-09, z: 0.219768, w: 0.975552], p = [x: -21.2261, y: 6.44297, z: 1.87592]
+E/native  ( 7422): E0000 00:00:1794393181.865337    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393181.899668    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393181.930020    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393181.961898    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2042395233665 camera_index: 0 num_inlier_points: 13 inlier_ratio: 0.52 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery curr_adf_T_vio: q = [x: 1.98912e-08, y: 5.1603e-09, z: 0.215857, w: 0.976425], p = [x: -21.1885, y: 6.26172, z: 1.88593]
+E/native  ( 7422): E0000 00:00:1794393181.965406    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393181.997570    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393181.999935    8299 viwls_optimization.cc:1463] [M] MAP SOLVE: Iterations: 16, Cost: 1.799179e+09 -> 1.729884e+03, Reason: NO_CONVERGENCE
+I/native  ( 7422): I0000 00:00:1794393182.000006    8299 viwls_optimization.cc:1351] [M] Skip Map State Update
+W/native  ( 7422): W0000 00:00:1794393182.000372    8299 bundle_adjustment_priors_builder_litecom.cc:129] [M] LiteCOM unconstrained solve did not converge. Reverting to PartialConstraintsPartialVariables with cooldown_epochs: 5
+W/native  ( 7422): W0000 00:00:1794393182.022947    8299 data_manager_helpers.cc:28] [M] Not enough keyframes or landmarks to publish map: num_keyframes: 31, num_landmarks: 2
+E/native  ( 7422): E0000 00:00:1794393182.031010    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393182.064601    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393182.068259    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2042494753681 camera_index: 0 num_inlier_points: 15 inlier_ratio: 0.535714 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery curr_adf_T_vio: q = [x: -2.7892e-08, y: 2.21872e-09, z: 0.237686, w: 0.971342], p = [x: -20.9005, y: 6.93908, z: 1.84521]
+E/native  ( 7422): E0000 00:00:1794393182.098140    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393182.129905    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393182.159656    8291 vio_fault_detector.cc:655] [VioFaultDetector] Insufficient inliers or feature ratio ( 20 / 229), in VIO update for duration: 199.508558ms Min ratio: 0.2
+E/native  ( 7422): E0000 00:00:1794393182.163718    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393182.175028    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2042594742223 camera_index: 0 num_inlier_points: 15 inlier_ratio: 0.5 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery curr_adf_T_vio: q = [x: -1.99261e-08, y: 1.31042e-08, z: 0.267397, w: 0.963586], p = [x: -20.5137, y: 8.10966, z: 1.83313]
+E/IJankManager( 7422): slideSceneEnd unknown scene 1000 mScene:-1
+E/native  ( 7422): E0000 00:00:1794393182.197138    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393182.231623    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393182.264897    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393182.270897    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2042694730764 camera_index: 0 num_inlier_points: 14 inlier_ratio: 0.482759 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery curr_adf_T_vio: q = [x: 3.26365e-09, y: -1.49418e-08, z: 0.194639, w: 0.980875], p = [x: -21.2301, y: 4.42491, z: 1.8863]
+E/native  ( 7422): E0000 00:00:1794393182.298097    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393182.331549    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393182.365732    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393182.371408    8291 vio_fault_detector.cc:56] timestamp_ns_in_image_clock: 2042794719306
+I/native  ( 7422): I0000 00:00:1794393182.371647    8291 vio_fault_detector.cc:58]  timestamp_ns_in_imu_clock: 2042779343358
+I/native  ( 7422): I0000 00:00:1794393182.371667    8291 vio_fault_detector.cc:60] bias:  0.469388  0.212925 -0.296773 0.00186301 0.00429006 0.00572599
+I/native  ( 7422): I0000 00:00:1794393182.371779    8291 vio_fault_detector.cc:63] accel_bias_variance: 0.000878105  0.00029244 0.000199483
+I/native  ( 7422): I0000 00:00:1794393182.371875    8291 vio_fault_detector.cc:67] gyro_bias_variance: 2.66322e-07 9.09387e-07 1.39225e-06
+I/native  ( 7422): I0000 00:00:1794393182.371903    8291 vio_fault_detector.cc:72] imu_transform_sensor: 400 0 0 0 0 0 0 1
+I/native  ( 7422): I0000 00:00:1794393182.371937    8291 vio_fault_detector.cc:78] camera_intrinsics: 200 432.547  433.08 316.621 239.017
+I/native  ( 7422): I0000 00:00:1794393182.372777    8291 vio_fault_detector.cc:82] global_velocity_imu:  -1.48086   2.81955 -0.515801
+I/native  ( 7422): I0000 00:00:1794393182.372801    8291 vio_fault_detector.cc:85] global_velocity_imu_variance: 0.00544405  0.0148166 0.00172952
+I/native  ( 7422): I0000 00:00:1794393182.372823    8291 vio_fault_detector.cc:90] global_pose_imu_variance: 2.90848e-05 8.82567e-06 7.63451e-05   0.0292679   0.0817068   0.0116288
+I/native  ( 7422): I0000 00:00:1794393182.372851    8291 vio_fault_detector.cc:94] imu_scale_and_misalignment:     1.00281     1.05139     1.01016 -0.00718107   0.0144787   0.0123287     1.00809     1.00773     1.02963  0.00946822  0.00220679   0.0126919  -0.0100422  -0.0040768  0.00457777   -0.999931
+I/native  ( 7422): I0000 00:00:1794393182.372887    8291 vio_fault_detector.cc:97] imu_scale_and_misalignment_covariance: 6.65309e-08 7.68599e-08 7.86576e-08 7.31468e-08 7.62166e-08 7.83916e-08  8.0729e-08  7.2172e-08 7.32977e-08 6.85025e-08 6.74499e-08 7.17412e-08 6.73772e-08 6.61719e-08 6.77516e-08
+I/native  ( 7422): I0000 00:00:1794393182.372915    8291 vio_fault_detector.cc:101] adf_t_vio: 0 0 0
+I/native  ( 7422): I0000 00:00:1794393182.372929    8291 vio_fault_detector.cc:104] adf_t_vio_covariance: 0 0 0 0 0 0
+I/native  ( 7422): I0000 00:00:1794393182.388867    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2042794719306 camera_index: 0 num_inlier_points: 20 inlier_ratio: 0.540541 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery curr_adf_T_vio: q = [x: -3.37279e-08, y: 6.72053e-09, z: 0.224549, w: 0.974463], p = [x: -21.0722, y: 5.76018, z: 1.83151]
+E/native  ( 7422): E0000 00:00:1794393182.398728    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393182.431518    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393182.452514    8293 circular_memory_allocator.h:54] CircularMemoryAllocator overflow: capacity 2097152, head 848392, tail 2929376, size 20736, alignment 8
+W/native  ( 7422): W0000 00:00:1794393182.459970    8291 vio_fault_detector.cc:257] [VioFaultDetector] VIO is moving fast with speed (m/s): 3.29492 but RANSAC failed to provide valid frame to frame translation by reporting degeneracy for duration: 99.988594ms
+I/native  ( 7422): I0000 00:00:1794393182.460062    8291 vio_fault_detector.cc:655] [VioFaultDetector] Insufficient inliers or feature ratio ( 1 / 167), in VIO update for duration: 499.474235ms Min ratio: 0.2
+I/Unity   ( 7422): Reality Defender AR diagnostic: session=SessionTracking reason=None camera=world=(24.268, -1.767, 5.390) rot=(24.7, 345.2, 356.8) local=(24.268, -1.767, 5.390) localRot=(24.7, 345.2, 356.8) inputPosition=unavailable plane=none anchor=none reticle=hidden
+I/Unity   ( 7422): UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+I/Unity   ( 7422): RealityDefender.PlacementController:LogTrackingDiagnostic()
+I/Unity   ( 7422): RealityDefender.PlacementController:LateUpdate()
+I/Unity   ( 7422): 
+E/native  ( 7422): E0000 00:00:1794393182.465985    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393182.476398    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2042894707900 camera_index: 0 num_inlier_points: 11 inlier_ratio: 0.34375 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery curr_adf_T_vio: q = [x: -1.04194e-08, y: 5.82986e-09, z: 0.171788, w: 0.985134], p = [x: -21.3564, y: 3.04566, z: 1.88863]
+E/native  ( 7422): E0000 00:00:1794393182.498101    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393182.531787    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393182.553307    8519 logging_helper.h:101] [Live DS] [Camera][0] Accumulative count: 1032
+E/native  ( 7422): E0000 00:00:1794393182.564328    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/VelocityTracker( 7422): LSQ2 speed rezero
+D/OplusViewDragTouchViewHelper( 7422): dispatchTouchView action = 1
+I/VelocityTracker( 7422): LSQ2 speed rezero
+I/native  ( 7422): I0000 00:00:1794393182.589930    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2042994696442 camera_index: 0 num_inlier_points: 18 inlier_ratio: 0.5 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery curr_adf_T_vio: q = [x: -7.33187e-09, y: -3.83473e-10, z: 0.187408, w: 0.982282], p = [x: -21.2363, y: 3.41079, z: 1.96235]
+D/ViewRootImplExtImpl( 7422): the up motion event handled by client, just return
+E/native  ( 7422): E0000 00:00:1794393182.597935    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393182.630526    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393182.656638    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2043094684983 camera_index: 0 num_inlier_points: 20 inlier_ratio: 0.588235 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery curr_adf_T_vio: q = [x: -2.70513e-08, y: -1.62868e-08, z: 0.212418, w: 0.977179], p = [x: -21.0487, y: 4.32632, z: 1.98708]
+E/native  ( 7422): E0000 00:00:1794393182.678858    8344 android_data_source.cc:727] [Live DS] Callback list for SENSOR_TYPE_ACCELEROMETER at ordinal 0 not found.
+I/native  ( 7422): I0000 00:00:1794393182.739676    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2043194673525 camera_index: 0 num_inlier_points: 23 inlier_ratio: 0.676471 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery curr_adf_T_vio: q = [x: 2.91423e-08, y: 2.29315e-08, z: 0.22057, w: 0.975371], p = [x: -21.438, y: 11.4588, z: -0.376845]
+I/native  ( 7422): I0000 00:00:1794393182.802034    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_GYROSCOPE_UNCALIBRATED_0] Accumulative count: 7000
+I/native  ( 7422): I0000 00:00:1794393182.835789    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_ACCELEROMETER_0] Accumulative count: 6998
+E/native  ( 7422): E0000 00:00:1794393182.849447    8297 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393182.849449    8292 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393182.849443    8291 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393182.849447    8296 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393182.849648    8291 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393182.849644    8294 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393182.849684    8294 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393182.849683    8293 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393182.849754    8291 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393182.849776    8297 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393182.849801    8296 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393182.849810    8292 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+I/native  ( 7422): I0000 00:00:1794393182.851355    8291 vio_fault_detector.cc:434] [VioFaultDetector] Not enough ransac inliers=91 ransac_inlier_ratio=0.120211 for duration: 99.988542ms.
+I/native  ( 7422): I0000 00:00:1794393182.860606    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2043294662067 camera_index: 0 num_inlier_points: 25 inlier_ratio: 0.78125 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery curr_adf_T_vio: q = [x: -2.58034e-08, y: -3.59772e-09, z: 0.205296, w: 0.9787], p = [x: -21.746, y: 11.5273, z: -0.651758]
+E/native  ( 7422): E0000 00:00:1794393182.864402    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393182.897698    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393182.929514    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393182.944649    8291 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393182.944769    8292 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393182.944818    8297 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393182.944647    8294 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393182.944954    8291 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393182.945003    8293 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393182.945025    8296 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393182.945040    8293 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393182.945137    8293 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393182.945149    8291 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393182.945166    8293 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393182.945338    8297 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+I/native  ( 7422): I0000 00:00:1794393182.958994    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2043394650660 camera_index: 0 num_inlier_points: 30 inlier_ratio: 0.857143 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery curr_adf_T_vio: q = [x: -3.09319e-10, y: 8.49836e-09, z: 0.224171, w: 0.97455], p = [x: -21.3367, y: 12.3786, z: -0.715728]
+I/native  ( 7422): I0000 00:00:1794393182.959652    8291 sbr_constraint_update_utils.cc:372] [SBR] (Re-)setting adf_t_vio fortimestamp: 2043394650660 map_id: 8cded5a7-01d3-2cfe-8615-64c0453ea0db version: 1 adf_t_vio: q = [x: 0, y: 0, z: -0.226651, w: 0.973976], p = [x: -21.2776, y: 12.5196, z: -0.72524]
+E/native  ( 7422): E0000 00:00:1794393182.961990    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393182.996559    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393183.022603    8297 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393183.022554    8291 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393183.022554    8292 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393183.022557    8294 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393183.022884    8291 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393183.022907    8293 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393183.022949    8293 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+E/native  ( 7422): E0000 00:00:1794393183.022952    8296 visual_landmark_constraint.h:207] Too many image measurements. Skipping the rest. Noise blocks: 1425
+I/native  ( 7422): I0000 00:00:1794393183.024697    8274 pose_node_graph.cc:924] [PoseNodeGraph] Localized to a new map/opt, map_id: 8cded5a7-01d3-2cfe-8615-64c0453ea0db adf_version: 1
+I/native  ( 7422): I0000 00:00:1794393183.024757    8274 pose_manager.cc:493] World pose node changing to MapId:8cded5a7-01d3-2cfe-8615-64c0453ea0db with 1 opt, old world pose node id: 2210305910100392686, new world pose node id: 6111462017526018006
+I/native  ( 7422): I0000 00:00:1794393183.025956    8317 localization_manager_impl.cc:1046] [MLOC] RunQueryOrTracking on kMapTracking mode.  prev_geometric_verification_status_: kFailedMapTrackingAndSuccessfulFullQuery current_adf: 8cded5a7-01d3-2cfe-8615-64c0453ea0db image_timestamp_ns: 2043494639202 camera_index: 0 pose_based_map_tracking: true num_structure_matches: 17
+I/native  ( 7422): I0000 00:00:1794393183.026332    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kMapTracking -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2043494639202 camera_index: 0 num_inlier_points: 29 inlier_ratio: 0.828571 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery last_known_adf_T_vio: q = [x: -0, y: -0, z: 0.226452, w: 0.974022], p = [x: -21.3243, y: 12.7117, z: -0.754989]
+E/native  ( 7422): E0000 00:00:1794393183.129254    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393183.162595    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393183.197829    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393183.222351    8298 critical_event_logging.cc:312]                    [CELog Instant] [FEATURE_DSP_CAM_IMU_DESYNC] [1794393183_222335] Camera to IMU clock offset (-15.43672775ms) exceeds threshold (5ms).
+E/native  ( 7422): E0000 00:00:1794393183.229777    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393183.263705    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393183.295455    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393183.329603    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393183.363406    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393183.395856    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393183.431879    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393183.464513    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/Unity   ( 7422): Reality Defender AR diagnostic: session=SessionTracking reason=None camera=world=(0.007, 0.103, 0.011) rot=(20.8, 2.5, 359.9) local=(0.007, 0.103, 0.011) localRot=(20.8, 2.5, 359.9) inputPosition=unavailable plane=none anchor=none reticle=hidden
+I/Unity   ( 7422): UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+I/Unity   ( 7422): RealityDefender.PlacementController:LogTrackingDiagnostic()
+I/Unity   ( 7422): RealityDefender.PlacementController:LateUpdate()
+I/Unity   ( 7422): 
+E/native  ( 7422): E0000 00:00:1794393183.498419    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393183.529674    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393183.532991    8291 vio_fault_detector.cc:56] timestamp_ns_in_image_clock: 2043994581962
+I/native  ( 7422): I0000 00:00:1794393183.533087    8291 vio_fault_detector.cc:58]  timestamp_ns_in_imu_clock: 2043982151476
+I/native  ( 7422): I0000 00:00:1794393183.533104    8291 vio_fault_detector.cc:60] bias: 0.0670777  0.284023 -0.502932 -0.00365798  0.00812573   0.0042838
+I/native  ( 7422): I0000 00:00:1794393183.533156    8291 vio_fault_detector.cc:63] accel_bias_variance: 0.000296619 6.35793e-05 6.75232e-05
+I/native  ( 7422): I0000 00:00:1794393183.533175    8291 vio_fault_detector.cc:67] gyro_bias_variance: 1.25118e-07 2.37991e-07 1.76385e-07
+I/native  ( 7422): I0000 00:00:1794393183.533194    8291 vio_fault_detector.cc:72] imu_transform_sensor: 400 0 0 0 0 0 0 1
+I/native  ( 7422): I0000 00:00:1794393183.533221    8291 vio_fault_detector.cc:78] camera_intrinsics: 200  433.57 434.769 315.144 239.063
+I/native  ( 7422): I0000 00:00:1794393183.533244    8291 vio_fault_detector.cc:82] global_velocity_imu: -0.0107158  0.0394182  0.0904698
+I/native  ( 7422): I0000 00:00:1794393183.533261    8291 vio_fault_detector.cc:85] global_velocity_imu_variance: 0.000159084 0.000470562 9.67858e-05
+I/native  ( 7422): I0000 00:00:1794393183.533278    8291 vio_fault_detector.cc:90] global_pose_imu_variance: 2.19144e-06 4.24834e-06 1.91043e-05  0.00203217  0.00705876   0.0012197
+I/native  ( 7422): I0000 00:00:1794393183.533301    8291 vio_fault_detector.cc:94] imu_scale_and_misalignment:     1.00274     1.05122     1.01009 -0.00693305   0.0145149   0.0123852     1.00809     1.00776     1.02974  0.00941196  0.00209633   0.0126773 -0.00995379 -0.00399587  0.00451755   -0.999932
+I/native  ( 7422): I0000 00:00:1794393183.533372    8291 vio_fault_detector.cc:97] imu_scale_and_misalignment_covariance: 6.64697e-08 7.67696e-08 7.87151e-08 7.28971e-08  7.6192e-08 7.83742e-08 8.08465e-08 7.22378e-08 7.33591e-08 6.85878e-08  6.7539e-08 7.17882e-08 6.72194e-08 6.62459e-08 6.78183e-08
+I/native  ( 7422): I0000 00:00:1794393183.533441    8291 vio_fault_detector.cc:101] adf_t_vio:  -22.078  11.9362 -0.59718
+I/native  ( 7422): I0000 00:00:1794393183.533465    8291 vio_fault_detector.cc:104] adf_t_vio_covariance:           0           0 2.40067e-05  0.00421738   0.0191777  0.00108714
+E/native  ( 7422): E0000 00:00:1794393183.562313    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393183.585413    8519 logging_helper.h:101] [Live DS] [Camera][0] Accumulative count: 1063
+E/native  ( 7422): E0000 00:00:1794393183.596626    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393183.628908    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393183.632658    8291 vio_fault_detector.cc:655] [VioFaultDetector] Insufficient inliers or feature ratio ( 0 / 9), in VIO update for duration: 199.977083ms Min ratio: 0.2
+E/native  ( 7422): E0000 00:00:1794393183.662264    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393183.695223    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393183.729791    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393183.750652    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2044094570504 Changes of translation:  0.592489   1.27004 0.0170339 has components larger than 1 meters.
+W/native  ( 7422): W0000 00:00:1794393183.761730    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2044094570504 Changes of translation:  0.869759   2.01554 0.0185662 has components larger than 1 meters.
+E/native  ( 7422): E0000 00:00:1794393183.762979    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393183.796130    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393183.807374    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_GYROSCOPE_UNCALIBRATED_0] Accumulative count: 7200
+E/native  ( 7422): E0000 00:00:1794393183.829746    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393183.832294    8317 localization_manager_impl.cc:1046] [MLOC] RunQueryOrTracking on kMapTracking mode.  prev_geometric_verification_status_: kFailed current_adf: 8cded5a7-01d3-2cfe-8615-64c0453ea0db image_timestamp_ns: 2044294547639 camera_index: 0 pose_based_map_tracking: true num_structure_matches: 22
+I/native  ( 7422): I0000 00:00:1794393183.832842    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kMapTracking -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2044294547639 camera_index: 0 num_inlier_points: 27 inlier_ratio: 0.84375 previous_geometric_verification_status: kFailed last_known_adf_T_vio: q = [x: -0, y: -0, z: 0.204348, w: 0.978898], p = [x: -22.159, y: 11.863, z: -0.547873]
+I/native  ( 7422): I0000 00:00:1794393183.839561    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_ACCELEROMETER_0] Accumulative count: 7198
+E/native  ( 7422): E0000 00:00:1794393183.863133    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393183.897646    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393183.929483    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393183.962648    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393183.995927    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393184.029027    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393184.063327    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393184.095683    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393184.129200    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393184.162058    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393184.195275    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393184.228027    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393184.262391    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393184.295028    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393184.329495    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393184.361131    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393184.398022    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393184.427928    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393184.462976    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393184.495683    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/Unity   ( 7422): Reality Defender AR diagnostic: session=SessionTracking reason=None camera=world=(0.026, 0.036, -0.049) rot=(21.4, 10.0, 359.5) local=(0.026, 0.036, -0.049) localRot=(21.4, 10.0, 359.5) inputPosition=unavailable plane=none anchor=none reticle=hidden
+I/Unity   ( 7422): UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+I/Unity   ( 7422): RealityDefender.PlacementController:LogTrackingDiagnostic()
+I/Unity   ( 7422): RealityDefender.PlacementController:LateUpdate()
+I/Unity   ( 7422): 
+E/native  ( 7422): E0000 00:00:1794393184.530597    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393184.563862    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393184.594769    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393184.622079    8519 logging_helper.h:101] [Live DS] [Camera][0] Accumulative count: 1094
+E/native  ( 7422): E0000 00:00:1794393184.628694    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393184.662936    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393184.670581    8291 vio_fault_detector.cc:56] timestamp_ns_in_image_clock: 2045094456077
+I/native  ( 7422): I0000 00:00:1794393184.670671    8291 vio_fault_detector.cc:58]  timestamp_ns_in_imu_clock: 2045081725977
+I/native  ( 7422): I0000 00:00:1794393184.670682    8291 vio_fault_detector.cc:60] bias: 0.0333567  0.323164 -0.534645 -0.0035315 0.00811943 0.00523496
+I/native  ( 7422): I0000 00:00:1794393184.670720    8291 vio_fault_detector.cc:63] accel_bias_variance: 0.000188888 2.58707e-05 3.74216e-05
+I/native  ( 7422): I0000 00:00:1794393184.670734    8291 vio_fault_detector.cc:67] gyro_bias_variance: 6.83485e-08  1.6189e-07 1.25344e-07
+I/native  ( 7422): I0000 00:00:1794393184.670748    8291 vio_fault_detector.cc:72] imu_transform_sensor: 400 0 0 0 0 0 0 1
+I/native  ( 7422): I0000 00:00:1794393184.670769    8291 vio_fault_detector.cc:78] camera_intrinsics: 200 433.397 434.584 315.017 239.208
+I/native  ( 7422): I0000 00:00:1794393184.670785    8291 vio_fault_detector.cc:82] global_velocity_imu:  0.0334689 -0.0356059 -0.0442166
+I/native  ( 7422): I0000 00:00:1794393184.670799    8291 vio_fault_detector.cc:85] global_velocity_imu_variance: 1.26106e-05 3.01882e-05 2.90925e-06
+I/native  ( 7422): I0000 00:00:1794393184.670812    8291 vio_fault_detector.cc:90] global_pose_imu_variance: 1.10207e-06   2.505e-06 1.76432e-05 0.000880229  0.00331106 0.000837263
+I/native  ( 7422): I0000 00:00:1794393184.670831    8291 vio_fault_detector.cc:94] imu_scale_and_misalignment:      1.0028     1.05123     1.01015 -0.00684905   0.0144631   0.0123661     1.00807     1.00775     1.02972  0.00940334  0.00208902   0.0127015 -0.00994495 -0.00399189  0.00451159   -0.999932
+I/native  ( 7422): I0000 00:00:1794393184.670864    8291 vio_fault_detector.cc:97] imu_scale_and_misalignment_covariance: 6.64978e-08 7.67503e-08   7.862e-08 7.26176e-08 7.59797e-08 7.83613e-08 8.09395e-08 7.22574e-08 7.33596e-08  6.8679e-08 6.76382e-08 7.18151e-08 6.70175e-08 6.63367e-08 6.78867e-08
+I/native  ( 7422): I0000 00:00:1794393184.670893    8291 vio_fault_detector.cc:101] adf_t_vio:  -22.1373   11.8392 -0.496494
+I/native  ( 7422): I0000 00:00:1794393184.671100    8291 vio_fault_detector.cc:104] adf_t_vio_covariance:           0           0 1.68714e-05  0.00275734   0.0115906 0.000804433
+E/native  ( 7422): E0000 00:00:1794393184.696019    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393184.728823    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393184.731701    8293 circular_memory_allocator.h:54] CircularMemoryAllocator overflow: capacity 2097152, head 1793048, tail 3875984, size 20736, alignment 8
+I/native  ( 7422): I0000 00:00:1794393184.740184    8291 vio_fault_detector.cc:655] [VioFaultDetector] Insufficient inliers or feature ratio ( 13 / 178), in VIO update for duration: 199.977084ms Min ratio: 0.2
+E/native  ( 7422): E0000 00:00:1794393184.760892    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393184.794546    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393184.810598    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_GYROSCOPE_UNCALIBRATED_0] Accumulative count: 7400
+E/native  ( 7422): E0000 00:00:1794393184.829993    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393184.843587    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_ACCELEROMETER_0] Accumulative count: 7398
+E/native  ( 7422): E0000 00:00:1794393184.861370    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393184.884291    8462 motion_analysis_calculator.cc:652] Analyzed frame 1101
+E/native  ( 7422): E0000 00:00:1794393184.895382    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393184.926984    8291 vio_fault_detector.cc:434] [VioFaultDetector] Not enough ransac inliers=49 ransac_inlier_ratio=0.0859649 for duration: 99.988594ms.
+E/native  ( 7422): E0000 00:00:1794393184.927824    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393184.933866    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2045394421754 camera_index: 0 num_inlier_points: 20 inlier_ratio: 0.645161 previous_geometric_verification_status: kSuccessfulMapTracking curr_adf_T_vio: q = [x: 4.62817e-09, y: 5.27804e-09, z: 0.198263, w: 0.980149], p = [x: -22.3083, y: 11.6116, z: -0.472876]
+E/native  ( 7422): E0000 00:00:1794393184.961775    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393184.994544    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393185.024688    8298 critical_event_logging.cc:312]                    [CELog Instant] [FEATURE_DSP_RANSAC_INLIER_INSUFFICIENT] [1794393185_024677] Feature RANSAC inlier is less than threshold (17/20).
+E/native  ( 7422): E0000 00:00:1794393185.028251    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393185.036633    8317 localization_manager_impl.cc:1046] [MLOC] RunQueryOrTracking on kMapTracking mode.  prev_geometric_verification_status_: kFailedMapTrackingAndSuccessfulFullQuery current_adf: 8cded5a7-01d3-2cfe-8615-64c0453ea0db image_timestamp_ns: 2045494410296 camera_index: 0 pose_based_map_tracking: true num_structure_matches: 3
+I/native  ( 7422): I0000 00:00:1794393185.045164    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2045494410296 camera_index: 0 num_inlier_points: 22 inlier_ratio: 0.814815 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery curr_adf_T_vio: q = [x: -1.59694e-08, y: -2.21687e-09, z: 0.18467, w: 0.982801], p = [x: -22.619, y: 10.936, z: -0.475758]
+E/native  ( 7422): E0000 00:00:1794393185.060201    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393185.093617    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393185.128666    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393185.147416    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2045594398837 camera_index: 0 num_inlier_points: 21 inlier_ratio: 0.807692 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery curr_adf_T_vio: q = [x: -1.20699e-08, y: 1.53271e-08, z: 0.191143, w: 0.981562], p = [x: -22.5139, y: 11.2376, z: -0.442994]
+E/native  ( 7422): E0000 00:00:1794393185.160100    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393185.193940    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393185.226805    8298 critical_event_logging.cc:312]                    [CELog Instant] [FEATURE_DSP_CAM_IMU_DESYNC] [1794393185_226788] Camera to IMU clock offset (-12.71395925ms) exceeds threshold (5ms).
+E/native  ( 7422): E0000 00:00:1794393185.227786    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393185.243227    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2045294433160 Changes of translation:  0.626375   1.18743 0.0472118 has components larger than 1 meters.
+I/native  ( 7422): I0000 00:00:1794393185.251034    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2045694387379 camera_index: 0 num_inlier_points: 18 inlier_ratio: 0.6 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery curr_adf_T_vio: q = [x: -2.40557e-08, y: -6.56208e-09, z: 0.189178, w: 0.981943], p = [x: -22.5166, y: 11.3959, z: -0.436766]
+E/native  ( 7422): E0000 00:00:1794393185.261916    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393185.295006    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393185.327740    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393185.352248    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kMapTracking -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2045794375973 camera_index: 0 num_inlier_points: 20 inlier_ratio: 0.869565 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery last_known_adf_T_vio: q = [x: -0, y: -0, z: 0.209096, w: 0.977895], p = [x: -22.0723, y: 12.1831, z: -0.473623]
+E/native  ( 7422): E0000 00:00:1794393185.360124    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393185.393578    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393185.430616    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393185.459747    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393185.495797    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393185.526847    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393185.554339    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2045894364514 Changes of translation:  0.651828   1.30659 0.0651125 has components larger than 1 meters.
+I/Unity   ( 7422): Reality Defender AR diagnostic: session=SessionTracking reason=None camera=world=(0.011, -0.011, -0.068) rot=(21.1, 6.2, 359.6) local=(0.011, -0.011, -0.068) localRot=(21.1, 6.2, 359.6) inputPosition=unavailable plane=none anchor=none reticle=hidden
+I/Unity   ( 7422): UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+I/Unity   ( 7422): RealityDefender.PlacementController:LogTrackingDiagnostic()
+I/Unity   ( 7422): RealityDefender.PlacementController:LateUpdate()
+I/Unity   ( 7422): 
+E/native  ( 7422): E0000 00:00:1794393185.560138    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393185.565241    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2045994353056 camera_index: 0 num_inlier_points: 16 inlier_ratio: 0.551724 previous_geometric_verification_status: kSuccessfulMapTracking curr_adf_T_vio: q = [x: 2.49274e-08, y: 9.71231e-09, z: 0.2239, w: 0.974612], p = [x: -21.7495, y: 12.9994, z: -0.411328]
+E/native  ( 7422): E0000 00:00:1794393185.593994    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393185.626963    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393185.651928    8519 logging_helper.h:101] [Live DS] [Camera][0] Accumulative count: 1125
+I/native  ( 7422): I0000 00:00:1794393185.652616    8317 localization_manager_impl.cc:1046] [MLOC] RunQueryOrTracking on kMapTracking mode.  prev_geometric_verification_status_: kFailedMapTrackingAndSuccessfulFullQuery current_adf: 8cded5a7-01d3-2cfe-8615-64c0453ea0db image_timestamp_ns: 2046094341598 camera_index: 0 pose_based_map_tracking: true num_structure_matches: 3
+W/native  ( 7422): W0000 00:00:1794393185.652812    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2045894364514 Changes of translation:  0.755586   1.46283 0.0784943 has components larger than 1 meters.
+W/native  ( 7422): W0000 00:00:1794393185.656467    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2045894364514 Changes of translation:  0.851021   1.82439 0.0722373 has components larger than 1 meters.
+E/native  ( 7422): E0000 00:00:1794393185.661255    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393185.693118    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393185.728772    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393185.756805    8291 vio_fault_detector.cc:655] [VioFaultDetector] Insufficient inliers or feature ratio ( 40 / 204), in VIO update for duration: 99.988541ms Min ratio: 0.2
+I/native  ( 7422): I0000 00:00:1794393185.756909    8291 vio_fault_detector.cc:56] timestamp_ns_in_image_clock: 2046194330139
+I/native  ( 7422): I0000 00:00:1794393185.756925    8291 vio_fault_detector.cc:58]  timestamp_ns_in_imu_clock: 2046179505943
+I/native  ( 7422): I0000 00:00:1794393185.756938    8291 vio_fault_detector.cc:60] bias: -0.0541062   0.304061  -0.519522 -0.0012782  0.0120403 0.00686556
+I/native  ( 7422): I0000 00:00:1794393185.756975    8291 vio_fault_detector.cc:63] accel_bias_variance: 0.000165054  2.2302e-05 3.34527e-05
+I/native  ( 7422): I0000 00:00:1794393185.756992    8291 vio_fault_detector.cc:67] gyro_bias_variance: 4.73929e-08 9.82797e-08 6.10367e-08
+I/native  ( 7422): I0000 00:00:1794393185.757009    8291 vio_fault_detector.cc:72] imu_transform_sensor: 200  0.0195136 -0.0155364  0.0338374 -0.702789  0.710583 0.0236783 0.0244614
+I/native  ( 7422): I0000 00:00:1794393185.757037    8291 vio_fault_detector.cc:78] camera_intrinsics: 200 434.015 435.826 315.163   238.6
+I/native  ( 7422): I0000 00:00:1794393185.757057    8291 vio_fault_detector.cc:82] global_velocity_imu:  -0.0086036 0.000185307  -0.0741287
+I/native  ( 7422): I0000 00:00:1794393185.757074    8291 vio_fault_detector.cc:85] global_velocity_imu_variance: 1.79812e-05 8.46024e-05 8.08704e-06
+I/native  ( 7422): I0000 00:00:1794393185.757091    8291 vio_fault_detector.cc:90] global_pose_imu_variance: 7.93316e-07 1.86139e-06 1.17322e-05 0.000560057  0.00172796 0.000595009
+I/native  ( 7422): I0000 00:00:1794393185.757113    8291 vio_fault_detector.cc:94] imu_scale_and_misalignment:     1.00281     1.05113     1.01006 -0.00678295   0.0145653   0.0124174     1.00809      1.0078     1.02968  0.00935824  0.00209757   0.0126308  -0.0100028 -0.00400069  0.00453082   -0.999932
+I/native  ( 7422): I0000 00:00:1794393185.757151    8291 vio_fault_detector.cc:97] imu_scale_and_misalignment_covariance: 6.65839e-08 7.66606e-08 7.85764e-08 7.26026e-08 7.58357e-08 7.83786e-08  8.1043e-08 7.21807e-08 7.33582e-08 6.87707e-08 6.77323e-08  7.1751e-08 6.66278e-08 6.64008e-08 6.79294e-08
+I/native  ( 7422): I0000 00:00:1794393185.757186    8291 vio_fault_detector.cc:101] adf_t_vio:  -22.4795   11.5542 -0.423159
+I/native  ( 7422): I0000 00:00:1794393185.757202    8291 vio_fault_detector.cc:104] adf_t_vio_covariance:           0           0 1.05513e-05  0.00202066  0.00745441 0.000629664
+E/native  ( 7422): E0000 00:00:1794393185.760344    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393185.761211    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kMapTracking -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2046194330139 camera_index: 0 num_inlier_points: 15 inlier_ratio: 0.681818 previous_geometric_verification_status: kFailed last_known_adf_T_vio: q = [x: -0, y: -0, z: 0.190179, w: 0.98175], p = [x: -22.4795, y: 11.5542, z: -0.423159]
+E/native  ( 7422): E0000 00:00:1794393185.793997    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393185.815151    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_GYROSCOPE_UNCALIBRATED_0] Accumulative count: 7599
+E/native  ( 7422): E0000 00:00:1794393185.826922    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393185.843931    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2046194330139 Changes of translation:  0.721249   1.82926 0.0791373 has components larger than 1 meters.
+I/native  ( 7422): I0000 00:00:1794393185.850602    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_ACCELEROMETER_0] Accumulative count: 7598
+I/native  ( 7422): I0000 00:00:1794393185.851691    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2046294318733 camera_index: 0 num_inlier_points: 20 inlier_ratio: 0.8 previous_geometric_verification_status: kSuccessfulMapTracking curr_adf_T_vio: q = [x: -4.51829e-08, y: -5.05777e-09, z: 0.171387, w: 0.985204], p = [x: -22.8723, y: 10.5933, z: -0.321115]
+E/native  ( 7422): E0000 00:00:1794393185.859779    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393185.893966    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393185.928737    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393185.951301    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kMapTracking -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2046394307275 camera_index: 0 num_inlier_points: 20 inlier_ratio: 0.833333 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery last_known_adf_T_vio: q = [x: -0, y: -0, z: 0.1894, w: 0.9819], p = [x: -22.4663, y: 11.5451, z: -0.357851]
+E/native  ( 7422): E0000 00:00:1794393185.960882    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393185.993326    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393186.026465    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393186.034671    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2046394307275 Changes of translation:  0.515891    1.2899 0.0824813 has components larger than 1 meters.
+I/native  ( 7422): I0000 00:00:1794393186.042421    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2046494295817 camera_index: 0 num_inlier_points: 17 inlier_ratio: 0.68 previous_geometric_verification_status: kSuccessfulMapTracking curr_adf_T_vio: q = [x: 1.63281e-08, y: -7.05417e-09, z: 0.188613, w: 0.982052], p = [x: -22.4753, y: 11.5372, z: -0.279418]
+E/native  ( 7422): E0000 00:00:1794393186.060056    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393186.093242    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393186.103318    8299 viwls_optimization.cc:1463] [M] MAP SOLVE: Iterations: 16, Cost: 4.360374e+11 -> 1.182616e+02, Reason: NO_CONVERGENCE
+I/native  ( 7422): I0000 00:00:1794393186.103400    8299 viwls_optimization.cc:1351] [M] Skip Map State Update
+W/native  ( 7422): W0000 00:00:1794393186.103824    8299 bundle_adjustment_priors_builder_litecom.cc:129] [M] LiteCOM unconstrained solve did not converge. Reverting to PartialConstraintsPartialVariables with cooldown_epochs: 5
+E/native  ( 7422): E0000 00:00:1794393186.127349    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393186.128963    8299 data_manager_helpers.cc:28] [M] Not enough keyframes or landmarks to publish map: num_keyframes: 36, num_landmarks: 2
+I/native  ( 7422): I0000 00:00:1794393186.144750    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kMapTracking -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2046594284358 camera_index: 0 num_inlier_points: 19 inlier_ratio: 0.730769 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery last_known_adf_T_vio: q = [x: -0, y: -0, z: 0.19263, w: 0.981271], p = [x: -22.3699, y: 11.6845, z: -0.295613]
+E/native  ( 7422): E0000 00:00:1794393186.159997    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393186.193160    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393186.228414    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393186.234688    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2046594284358 Changes of translation:   1.07813   2.85296 0.0706608 has components larger than 1 meters.
+W/native  ( 7422): W0000 00:00:1794393186.241499    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2046594284358 Changes of translation:   0.41172   1.02629 0.0726313 has components larger than 1 meters.
+E/native  ( 7422): E0000 00:00:1794393186.261421    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393186.292781    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393186.327452    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393186.350545    8317 localization_manager_impl.cc:1046] [MLOC] RunQueryOrTracking on kMapTracking mode.  prev_geometric_verification_status_: kFailed current_adf: 8cded5a7-01d3-2cfe-8615-64c0453ea0db image_timestamp_ns: 2046794261494 camera_index: 0 pose_based_map_tracking: true num_structure_matches: 3
+I/native  ( 7422): I0000 00:00:1794393186.350812    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kMapTracking -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2046794261494 camera_index: 0 num_inlier_points: 21 inlier_ratio: 0.84 previous_geometric_verification_status: kFailed last_known_adf_T_vio: q = [x: -0, y: -0, z: 0.195083, w: 0.980787], p = [x: -22.2917, y: 11.8259, z: -0.236596]
+E/native  ( 7422): E0000 00:00:1794393186.359503    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393186.393186    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393186.427772    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393186.460227    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393186.492634    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393186.527914    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393186.549147    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2046894250035 Changes of translation:  0.483773   1.23297 0.0661389 has components larger than 1 meters.
+W/native  ( 7422): W0000 00:00:1794393186.554638    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2046894250035 Changes of translation: 0.994126  2.55824 0.050528 has components larger than 1 meters.
+E/native  ( 7422): E0000 00:00:1794393186.559585    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/Unity   ( 7422): Reality Defender AR diagnostic: session=SessionTracking reason=None camera=world=(-0.023, -0.009, -0.003) rot=(21.3, 7.8, 0.0) local=(-0.023, -0.009, -0.003) localRot=(21.3, 7.8, 0.0) inputPosition=unavailable plane=none anchor=none reticle=hidden
+I/Unity   ( 7422): UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+I/Unity   ( 7422): RealityDefender.PlacementController:LogTrackingDiagnostic()
+I/Unity   ( 7422): RealityDefender.PlacementController:LateUpdate()
+I/Unity   ( 7422): 
+E/native  ( 7422): E0000 00:00:1794393186.593131    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393186.626541    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393186.635161    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kMapTracking -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2047094227171 camera_index: 0 num_inlier_points: 19 inlier_ratio: 0.791667 previous_geometric_verification_status: kFailed last_known_adf_T_vio: q = [x: -0, y: -0, z: 0.198326, w: 0.980136], p = [x: -22.1766, y: 11.9617, z: -0.148326]
+I/native  ( 7422): I0000 00:00:1794393186.653052    8519 logging_helper.h:101] [Live DS] [Camera][0] Accumulative count: 1155
+E/native  ( 7422): E0000 00:00:1794393186.658973    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393186.695319    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393186.725956    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393186.759189    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393186.767742    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2047094227171 Changes of translation:  0.653286   1.66901 0.0465818 has components larger than 1 meters.
+W/native  ( 7422): W0000 00:00:1794393186.771802    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2047094227171 Changes of translation:  0.449965    1.1804 0.0620734 has components larger than 1 meters.
+E/native  ( 7422): E0000 00:00:1794393186.792258    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393186.820107    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_GYROSCOPE_UNCALIBRATED_0] Accumulative count: 7800
+E/native  ( 7422): E0000 00:00:1794393186.827279    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393186.842937    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kMapTracking -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2047294204254 camera_index: 0 num_inlier_points: 17 inlier_ratio: 0.73913 previous_geometric_verification_status: kFailed last_known_adf_T_vio: q = [x: -0, y: -0, z: 0.200409, w: 0.979712], p = [x: -22.1018, y: 12.0704, z: -0.107617]
+I/native  ( 7422): I0000 00:00:1794393186.852014    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_ACCELEROMETER_0] Accumulative count: 7798
+E/native  ( 7422): E0000 00:00:1794393186.859874    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393186.894739    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393186.925924    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393186.958693    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393186.992119    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393187.026336    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393187.043915    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2047394192796 Changes of translation:  0.480993   1.18169 0.0400476 has components larger than 1 meters.
+I/native  ( 7422): I0000 00:00:1794393187.052153    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2047494181389 camera_index: 0 num_inlier_points: 19 inlier_ratio: 0.76 previous_geometric_verification_status: kSuccessfulMapTracking curr_adf_T_vio: q = [x: -5.45058e-09, y: 7.09574e-09, z: 0.180795, w: 0.983521], p = [x: -22.4597, y: 11.1777, z: -0.0507065]
+E/native  ( 7422): E0000 00:00:1794393187.058037    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393187.091811    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393187.129156    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393187.158071    8317 localization_manager_impl.cc:1046] [MLOC] RunQueryOrTracking on kMapTracking mode.  prev_geometric_verification_status_: kFailedMapTrackingAndSuccessfulFullQuery current_adf: 8cded5a7-01d3-2cfe-8615-64c0453ea0db image_timestamp_ns: 2047594169931 camera_index: 0 pose_based_map_tracking: true num_structure_matches: 19
+E/native  ( 7422): E0000 00:00:1794393187.159261    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393187.159638    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kMapTracking -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2047594169931 camera_index: 0 num_inlier_points: 22 inlier_ratio: 0.88 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery last_known_adf_T_vio: q = [x: -0, y: -0, z: 0.201839, w: 0.979419], p = [x: -22.0372, y: 12.1461, z: -0.0549595]
+I/native  ( 7422): I0000 00:00:1794393187.161055    8291 absolute_pose_toolbox.cc:409] Gauss Newton absolute pose minimization failed.
+I/native  ( 7422): current_cost 0.130234 first_cost 0.113287
+E/native  ( 7422): E0000 00:00:1794393187.192958    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393187.225515    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393187.241796    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2047594169931 Changes of translation:  0.666626   1.61284 0.0222584 has components larger than 1 meters.
+I/native  ( 7422): I0000 00:00:1794393187.251949    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2047694158473 camera_index: 0 num_inlier_points: 21 inlier_ratio: 0.724138 previous_geometric_verification_status: kSuccessfulMapTracking curr_adf_T_vio: q = [x: 3.91601e-08, y: -5.48115e-09, z: 0.182259, w: 0.983251], p = [x: -22.4104, y: 11.258, z: -0.0324876]
+E/native  ( 7422): E0000 00:00:1794393187.258618    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393187.291977    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393187.325731    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393187.329066    8298 critical_event_logging.cc:312]                    [CELog Instant] [FEATURE_DSP_CAM_IMU_DESYNC] [1794393187_329048] Camera to IMU clock offset (-17.12703575ms) exceeds threshold (5ms).
+I/native  ( 7422): I0000 00:00:1794393187.354664    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kMapTracking -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2047794147014 camera_index: 0 num_inlier_points: 20 inlier_ratio: 0.769231 previous_geometric_verification_status: kFailedMapTrackingAndSuccessfulFullQuery last_known_adf_T_vio: q = [x: -0, y: -0, z: 0.202525, w: 0.979277], p = [x: -22.0083, y: 12.1766, z: -0.0490949]
+E/native  ( 7422): E0000 00:00:1794393187.358772    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393187.392601    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393187.426679    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393187.459536    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2047794147014 Changes of translation:  0.542387   1.33433 0.0217827 has components larger than 1 meters.
+E/native  ( 7422): E0000 00:00:1794393187.460151    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393187.491842    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393187.525631    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393187.552547    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kMapTracking -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2047994124150 camera_index: 0 num_inlier_points: 23 inlier_ratio: 0.92 previous_geometric_verification_status: kFailed last_known_adf_T_vio: q = [x: -0, y: -0, z: 0.202346, w: 0.979314], p = [x: -22.0087, y: 12.1639, z: -0.042998]
+E/native  ( 7422): E0000 00:00:1794393187.557962    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393187.591696    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/Unity   ( 7422): Reality Defender AR diagnostic: session=SessionTracking reason=None camera=world=(-0.058, 0.004, -0.020) rot=(20.8, 2.1, 0.2) local=(-0.058, 0.004, -0.020) localRot=(20.8, 2.1, 0.2) inputPosition=unavailable plane=none anchor=none reticle=hidden
+I/Unity   ( 7422): UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+I/Unity   ( 7422): RealityDefender.PlacementController:LogTrackingDiagnostic()
+I/Unity   ( 7422): RealityDefender.PlacementController:LateUpdate()
+I/Unity   ( 7422): 
+E/native  ( 7422): E0000 00:00:1794393187.626078    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393187.652390    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2047994124150 Changes of translation:  0.425422   1.03942 0.0330927 has components larger than 1 meters.
+I/native  ( 7422): I0000 00:00:1794393187.657403    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2048094112692 camera_index: 0 num_inlier_points: 23 inlier_ratio: 0.766667 previous_geometric_verification_status: kSuccessfulMapTracking curr_adf_T_vio: q = [x: 2.95673e-08, y: 2.53043e-08, z: 0.184842, w: 0.982768], p = [x: -22.3649, y: 11.2351, z: -0.0122053]
+E/native  ( 7422): E0000 00:00:1794393187.659056    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393187.679625    8344 android_data_source.cc:727] [Live DS] Callback list for SENSOR_TYPE_ACCELEROMETER at ordinal 0 not found.
+I/native  ( 7422): I0000 00:00:1794393187.683509    8519 logging_helper.h:101] [Live DS] [Camera][0] Accumulative count: 1186
+E/native  ( 7422): E0000 00:00:1794393187.691534    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393187.725560    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393187.744068    8317 localization_manager_impl.cc:1046] [MLOC] RunQueryOrTracking on kMapTracking mode.  prev_geometric_verification_status_: kFailedMapTrackingAndSuccessfulFullQuery current_adf: 8cded5a7-01d3-2cfe-8615-64c0453ea0db image_timestamp_ns: 2048194101233 camera_index: 0 pose_based_map_tracking: true num_structure_matches: 11
+W/native  ( 7422): W0000 00:00:1794393187.744611    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2047994124150 Changes of translation:  0.696998   1.76537 0.0481678 has components larger than 1 meters.
+W/native  ( 7422): W0000 00:00:1794393187.752528    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2047994124150 Changes of translation:  0.597278   1.52294 0.0502616 has components larger than 1 meters.
+E/native  ( 7422): E0000 00:00:1794393187.760301    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393187.791548    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393187.825180    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393187.824817    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_GYROSCOPE_UNCALIBRATED_0] Accumulative count: 8000
+W/native  ( 7422): W0000 00:00:1794393187.845135    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2047994124150 Changes of translation:  0.701441   1.79391 0.0623217 has components larger than 1 meters.
+W/native  ( 7422): W0000 00:00:1794393187.852533    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2047994124150 Changes of translation:  0.793767   2.01546 0.0639301 has components larger than 1 meters.
+I/native  ( 7422): I0000 00:00:1794393187.859076    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_ACCELEROMETER_0] Accumulative count: 7998
+E/native  ( 7422): E0000 00:00:1794393187.859447    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393187.891348    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393187.924723    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393187.935638    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kMapTracking -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2048394078369 camera_index: 0 num_inlier_points: 21 inlier_ratio: 0.777778 previous_geometric_verification_status: kFailed last_known_adf_T_vio: q = [x: -0, y: -0, z: 0.201259, w: 0.979538], p = [x: -22.0101, y: 12.0682, z: 0.0232368]
+E/native  ( 7422): E0000 00:00:1794393187.958832    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393187.990961    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393188.024462    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393188.041126    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2048394078369 Changes of translation:   0.516053    1.26262 0.00155389 has components larger than 1 meters.
+I/native  ( 7422): I0000 00:00:1794393188.048761    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2048494066910 camera_index: 0 num_inlier_points: 21 inlier_ratio: 0.65625 previous_geometric_verification_status: kSuccessfulMapTracking curr_adf_T_vio: q = [x: 7.31559e-09, y: -1.81153e-09, z: 0.190063, w: 0.981772], p = [x: -22.2363, y: 11.4822, z: 0.0392066]
+E/native  ( 7422): E0000 00:00:1794393188.058517    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393188.091826    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393188.124663    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393188.143444    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2048394078369 Changes of translation:   0.901014    2.23513 0.00390631 has components larger than 1 meters.
+W/native  ( 7422): W0000 00:00:1794393188.151689    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2048394078369 Changes of translation:    0.767023     1.88937 0.000433039 has components larger than 1 meters.
+E/native  ( 7422): E0000 00:00:1794393188.160040    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393188.190934    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393188.221563    8462 motion_analysis_calculator.cc:652] Analyzed frame 1201
+E/native  ( 7422): E0000 00:00:1794393188.224476    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393188.246393    8317 localization_manager_impl.cc:1046] [MLOC] RunQueryOrTracking on kMapTracking mode.  prev_geometric_verification_status_: kFailed current_adf: 8cded5a7-01d3-2cfe-8615-64c0453ea0db image_timestamp_ns: 2048694044046 camera_index: 0 pose_based_map_tracking: true num_structure_matches: 11
+W/native  ( 7422): W0000 00:00:1794393188.247170    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2048394078369 Changes of translation:  0.509686   1.27182 0.0121901 has components larger than 1 meters.
+W/native  ( 7422): W0000 00:00:1794393188.252940    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2048394078369 Changes of translation:   0.727322    1.77321 0.00142192 has components larger than 1 meters.
+E/native  ( 7422): E0000 00:00:1794393188.257793    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393188.291027    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393188.324613    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393188.334479    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2048394078369 Changes of translation:    1.17321    3.02072 0.00622761 has components larger than 1 meters.
+W/native  ( 7422): W0000 00:00:1794393188.340987    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2048394078369 Changes of translation:   0.697809     1.6666 0.00653664 has components larger than 1 meters.
+E/native  ( 7422): E0000 00:00:1794393188.357581    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393188.391155    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393188.425255    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393188.451793    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kMapTracking -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2048894021129 camera_index: 0 num_inlier_points: 21 inlier_ratio: 0.777778 previous_geometric_verification_status: kFailed last_known_adf_T_vio: q = [x: -0, y: -0, z: 0.2007, w: 0.979653], p = [x: -22.0363, y: 12.0306, z: 0.0198172]
+E/native  ( 7422): E0000 00:00:1794393188.457958    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393188.490972    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393188.525327    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393188.557457    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393188.590588    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393188.626580    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393188.650530    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2048994009671 Changes of translation:    0.68633    1.69945 0.00263531 has components larger than 1 meters.
+I/Unity   ( 7422): Reality Defender AR diagnostic: session=SessionTracking reason=None camera=world=(-0.086, 0.031, -0.020) rot=(20.8, 2.3, 0.2) local=(-0.086, 0.031, -0.020) localRot=(20.8, 2.3, 0.2) inputPosition=unavailable plane=none anchor=none reticle=hidden
+I/Unity   ( 7422): UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+I/Unity   ( 7422): RealityDefender.PlacementController:LogTrackingDiagnostic()
+I/Unity   ( 7422): RealityDefender.PlacementController:LateUpdate()
+I/Unity   ( 7422): 
+E/native  ( 7422): E0000 00:00:1794393188.657683    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393188.659353    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2048994009671 Changes of translation:   0.731148    1.91456 0.00683161 has components larger than 1 meters.
+E/native  ( 7422): E0000 00:00:1794393188.690508    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393188.716595    8519 logging_helper.h:101] [Live DS] [Camera][0] Accumulative count: 1217
+E/native  ( 7422): E0000 00:00:1794393188.726663    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393188.736400    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2048994009671 Changes of translation:   0.612276    1.61666 0.00112176 has components larger than 1 meters.
+I/native  ( 7422): I0000 00:00:1794393188.741855    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kLocalizationFullMap -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2049193986806 camera_index: 0 num_inlier_points: 17 inlier_ratio: 0.586207 previous_geometric_verification_status: kFailed curr_adf_T_vio: q = [x: -3.96732e-08, y: 4.2145e-09, z: 0.193195, w: 0.98116], p = [x: -22.1744, y: 11.7084, z: 0.00553555]
+E/native  ( 7422): E0000 00:00:1794393188.757273    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393188.791136    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393188.823894    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393188.827728    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_GYROSCOPE_UNCALIBRATED_0] Accumulative count: 8200
+I/native  ( 7422): I0000 00:00:1794393188.843022    8317 localization_manager_impl.cc:1046] [MLOC] RunQueryOrTracking on kMapTracking mode.  prev_geometric_verification_status_: kFailedMapTrackingAndSuccessfulFullQuery current_adf: 8cded5a7-01d3-2cfe-8615-64c0453ea0db image_timestamp_ns: 2049293975348 camera_index: 0 pose_based_map_tracking: true num_structure_matches: 13
+W/native  ( 7422): W0000 00:00:1794393188.843737    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2048994009671 Changes of translation: 0.705975  1.72189  0.01603 has components larger than 1 meters.
+W/native  ( 7422): W0000 00:00:1794393188.850371    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2048994009671 Changes of translation:  0.943744   2.33935 0.0177656 has components larger than 1 meters.
+E/native  ( 7422): E0000 00:00:1794393188.858594    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393188.860486    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_ACCELEROMETER_0] Accumulative count: 8198
+E/native  ( 7422): E0000 00:00:1794393188.890373    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393188.926125    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393188.941092    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2048994009671 Changes of translation:  0.916214    2.3115 0.0171657 has components larger than 1 meters.
+W/native  ( 7422): W0000 00:00:1794393188.948770    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2048994009671 Changes of translation:  0.627448   1.51489 0.0124381 has components larger than 1 meters.
+E/native  ( 7422): E0000 00:00:1794393188.956796    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393188.990346    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393189.025650    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393189.042335    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2048994009671 Changes of translation:  0.805063   1.95879 0.0217859 has components larger than 1 meters.
+W/native  ( 7422): W0000 00:00:1794393189.048624    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2048994009671 Changes of translation:  0.837297   1.99386 0.0235075 has components larger than 1 meters.
+E/native  ( 7422): E0000 00:00:1794393189.056284    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393189.090140    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393189.123429    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393189.133608    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2048994009671 Changes of translation:   0.88008   2.19022 0.0237099 has components larger than 1 meters.
+W/native  ( 7422): W0000 00:00:1794393189.140466    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2048994009671 Changes of translation:  0.914754   2.27949 0.0146009 has components larger than 1 meters.
+E/native  ( 7422): E0000 00:00:1794393189.157224    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393189.191187    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393189.223822    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393189.242433    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kMapTracking -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2049693929567 camera_index: 0 num_inlier_points: 21 inlier_ratio: 0.807692 previous_geometric_verification_status: kFailed last_known_adf_T_vio: q = [x: -0, y: -0, z: 0.199607, w: 0.979876], p = [x: -22.089, y: 11.9403, z: -0.00146218]
+E/native  ( 7422): E0000 00:00:1794393189.256521    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393189.290056    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393189.325310    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393189.356339    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393189.392189    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393189.424317    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393189.430898    8298 critical_event_logging.cc:312]                    [CELog Instant] [FEATURE_DSP_CAM_IMU_DESYNC] [1794393189_430882] Camera to IMU clock offset (-18.7842025ms) exceeds threshold (5ms).
+W/native  ( 7422): W0000 00:00:1794393189.443538    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2049793918108 Changes of translation:   0.981936    2.44151 0.00350237 has components larger than 1 meters.
+W/native  ( 7422): W0000 00:00:1794393189.451273    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2049793918108 Changes of translation:   0.639922    1.55292 0.00128614 has components larger than 1 meters.
+E/native  ( 7422): E0000 00:00:1794393189.455641    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393189.492571    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393189.523563    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393189.535437    8317 localization_manager_impl.cc:1046] [MLOC] RunQueryOrTracking on kMapTracking mode.  prev_geometric_verification_status_: kFailed current_adf: 8cded5a7-01d3-2cfe-8615-64c0453ea0db image_timestamp_ns: 2049993895244 camera_index: 0 pose_based_map_tracking: true num_structure_matches: 13
+W/native  ( 7422): W0000 00:00:1794393189.535676    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2049793918108 Changes of translation:   0.680879    1.63693 0.00769561 has components larger than 1 meters.
+W/native  ( 7422): W0000 00:00:1794393189.541427    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2049793918108 Changes of translation:   0.591955    1.44354 0.00189432 has components larger than 1 meters.
+E/native  ( 7422): E0000 00:00:1794393189.555977    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393189.589437    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393189.623154    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393189.647005    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kMapTracking -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2050093883785 camera_index: 0 num_inlier_points: 19 inlier_ratio: 0.730769 previous_geometric_verification_status: kFailed last_known_adf_T_vio: q = [x: -0, y: -0, z: 0.199793, w: 0.979838], p = [x: -22.0819, y: 11.9434, z: -0.00372003]
+E/native  ( 7422): E0000 00:00:1794393189.655879    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/Unity   ( 7422): Reality Defender AR diagnostic: session=SessionTracking reason=None camera=world=(-0.079, 0.029, -0.046) rot=(20.9, 2.5, 0.1) local=(-0.079, 0.029, -0.046) localRot=(20.9, 2.5, 0.1) inputPosition=unavailable plane=none anchor=none reticle=hidden
+I/Unity   ( 7422): UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+I/Unity   ( 7422): RealityDefender.PlacementController:LogTrackingDiagnostic()
+I/Unity   ( 7422): RealityDefender.PlacementController:LateUpdate()
+I/Unity   ( 7422): 
+E/native  ( 7422): E0000 00:00:1794393189.690742    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393189.718083    8519 logging_helper.h:101] [Live DS] [Camera][0] Accumulative count: 1247
+E/native  ( 7422): E0000 00:00:1794393189.725029    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393189.756354    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393189.790369    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393189.822616    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393189.831897    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_GYROSCOPE_UNCALIBRATED_0] Accumulative count: 8400
+W/native  ( 7422): W0000 00:00:1794393189.841045    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2050193872327 Changes of translation:  0.691378   1.66093 0.0032164 has components larger than 1 meters.
+W/native  ( 7422): W0000 00:00:1794393189.849024    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2050193872327 Changes of translation:    0.604542     1.44896 0.000601535 has components larger than 1 meters.
+E/native  ( 7422): E0000 00:00:1794393189.855798    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393189.864815    8344 logging_helper.h:101] [Live DS] [Sensor][SENSOR_TYPE_ACCELEROMETER_0] Accumulative count: 8398
+E/native  ( 7422): E0000 00:00:1794393189.890452    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393189.924954    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393189.936511    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2050193872327 Changes of translation:   0.644956    1.55952 0.00058386 has components larger than 1 meters.
+W/native  ( 7422): W0000 00:00:1794393189.945352    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2050193872327 Changes of translation:     0.51464      1.2229 0.000278914 has components larger than 1 meters.
+E/native  ( 7422): E0000 00:00:1794393189.956141    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393189.989232    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393190.022385    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393190.045569    8317 localization_manager_impl.cc:1046] [MLOC] RunQueryOrTracking on kMapTracking mode.  prev_geometric_verification_status_: kFailed current_adf: 8cded5a7-01d3-2cfe-8615-64c0453ea0db image_timestamp_ns: 2050493838004 camera_index: 0 pose_based_map_tracking: true num_structure_matches: 21
+I/native  ( 7422): I0000 00:00:1794393190.045844    8317 localization_manager_impl.cc:1347] [MLOC] NCam_Verified results of kMapTracking -  id_of_current_map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db timestamp_ns: 2050493838004 camera_index: 0 num_inlier_points: 20 inlier_ratio: 0.689655 previous_geometric_verification_status: kFailed last_known_adf_T_vio: q = [x: -0, y: -0, z: 0.200218, w: 0.979751], p = [x: -22.0668, y: 11.9557, z: -0.0041403]
+I/native  ( 7422): I0000 00:00:1794393190.048078    8291 absolute_pose_toolbox.cc:409] Gauss Newton absolute pose minimization failed.
+I/native  ( 7422): current_cost 0.106137 first_cost 0.0990153
+E/native  ( 7422): E0000 00:00:1794393190.055313    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393190.091051    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393190.122967    7554 hit_test.cc:427] INTERNAL: No point hit.
+I/native  ( 7422): I0000 00:00:1794393190.135001    8291 absolute_pose_toolbox.cc:409] Gauss Newton absolute pose minimization failed.
+I/native  ( 7422): current_cost 0.104832 first_cost 0.0996232
+E/native  ( 7422): E0000 00:00:1794393190.155887    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393190.190526    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393190.222467    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393190.236322    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2050593826546 Changes of translation:   0.453614    1.16906 0.00921429 has components larger than 1 meters.
+W/native  ( 7422): W0000 00:00:1794393190.242383    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2050593826546 Changes of translation:    0.619485     1.48363 0.000633591 has components larger than 1 meters.
+E/native  ( 7422): E0000 00:00:1794393190.255310    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393190.289320    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393190.324882    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393190.340322    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2050593826546 Changes of translation:    0.55676    1.32581 0.00214302 has components larger than 1 meters.
+W/native  ( 7422): W0000 00:00:1794393190.349506    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2050593826546 Changes of translation:     0.71101     1.73514 0.000967498 has components larger than 1 meters.
+E/native  ( 7422): E0000 00:00:1794393190.355031    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393190.388653    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393190.421960    7554 hit_test.cc:427] INTERNAL: No point hit.
+W/native  ( 7422): W0000 00:00:1794393190.441171    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2050593826546 Changes of translation:    0.608511     1.47045 0.000633573 has components larger than 1 meters.
+W/native  ( 7422): W0000 00:00:1794393190.447135    8317 localization_manager_impl.cc:674] [MLOC] ARCore estimated adf_T_vio is at map: 8cded5a7-01d3-2cfe-8615-64c0453ea0db previously tracked at 2050593826546 Changes of translation:   0.659123    1.60837 0.00288515 has components larger than 1 meters.
+E/native  ( 7422): E0000 00:00:1794393190.455122    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393190.488934    7554 hit_test.cc:427] INTERNAL: No point hit.
+E/native  ( 7422): E0000 00:00:1794393190.522741    7554 hit_test.cc:427] INTERNAL: No point hit.
